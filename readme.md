@@ -10,7 +10,7 @@ An introduction:
 JavaScript Fundamentals:
 
 - [x] Hello, world!
-- [ ] Code structure
+- [x] Code structure
 - [ ] The modern mode, "use strict"
 - [ ] Variables
 - [ ] Data types
