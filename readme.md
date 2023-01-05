@@ -11,7 +11,7 @@ JavaScript Fundamentals:
 
 - [x] Hello, world!
 - [x] Code structure
-- [ ] The modern mode, "use strict"
+- [x] The modern mode, "use strict"
 - [ ] Variables
 - [ ] Data types
 - [ ] Interaction: alert, prompt, confirm
