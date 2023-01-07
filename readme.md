@@ -13,7 +13,7 @@ JavaScript Fundamentals:
 - [x] Code structure
 - [x] The modern mode, "use strict"
 - [X] Variables
-- [ ] Data types
+- [x] Data types
 - [ ] Interaction: alert, prompt, confirm
 - [ ] Type Conversions
 - [ ] Basic operators, maths
