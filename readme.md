@@ -14,7 +14,7 @@ JavaScript Fundamentals:
 - [x] The modern mode, "use strict"
 - [X] Variables
 - [x] Data types
-- [ ] Interaction: alert, prompt, confirm
+- [x] Interaction: alert, prompt, confirm
 - [ ] Type Conversions
 - [ ] Basic operators, maths
 - [ ] Comparisons
