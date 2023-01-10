@@ -16,7 +16,7 @@ JavaScript Fundamentals:
 - [x] Data types
 - [x] Interaction: alert, prompt, confirm
 - [x] Type Conversions
-- [ ] Basic operators, maths
+- [x] Basic operators, maths
 - [ ] Comparisons
 - [ ] Conditional branching: if, '?'
 - [ ] Logical operators
