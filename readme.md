@@ -18,7 +18,7 @@ JavaScript Fundamentals:
 - [x] Type Conversions
 - [x] Basic operators, maths
 - [x] Comparisons
-- [ ] Conditional branching: if, '?'
+- [x] Conditional branching: if, '?'
 - [ ] Logical operators
 - [ ] Nullish coalescing operator '??'
 - [ ] Loops: while and for
