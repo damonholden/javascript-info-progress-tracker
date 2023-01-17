@@ -66,7 +66,7 @@
   - [x] What is the result of AND'ed alerts?
   - [x] The result of OR AND OR
   - [x] Check the range between
-  - [ ] Check the range outside
+  - [x] Check the range outside
   - [ ] A question about "if"
   - [ ] Check the login
 
