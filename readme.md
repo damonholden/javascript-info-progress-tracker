@@ -67,7 +67,7 @@
   - [x] The result of OR AND OR
   - [x] Check the range between
   - [x] Check the range outside
-  - [ ] A question about "if"
+  - [x] A question about "if"
   - [ ] Check the login
 
 - [ ] Nullish coalescing operator '??'
