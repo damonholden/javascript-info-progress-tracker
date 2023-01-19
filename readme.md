@@ -68,7 +68,7 @@
   - [x] Check the range between
   - [x] Check the range outside
   - [x] A question about "if"
-  - [ ] Check the login
+  - [x] Check the login
 
 - [ ] Nullish coalescing operator '??'
 
