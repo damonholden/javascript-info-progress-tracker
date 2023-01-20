@@ -70,7 +70,7 @@
   - [x] A question about "if"
   - [x] Check the login
 
-- [ ] Nullish coalescing operator '??'
+- [x] Nullish coalescing operator '??'
 
 - [ ] Loops: while and for
   - tasks:
