@@ -72,7 +72,7 @@
 
 - [x] Nullish coalescing operator '??'
 
-- [ ] Loops: while and for
+- [x] Loops: while and for
   - tasks:
   - [ ] Last loop value
   - [ ] Which values does the while loop show?
