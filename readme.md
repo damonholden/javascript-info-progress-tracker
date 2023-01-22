@@ -75,7 +75,7 @@
 - [x] Loops: while and for
   - tasks:
   - [x] Last loop value
-  - [ ] Which values does the while loop show?
+  - [x] Which values does the while loop show?
   - [ ] Which values get shown by the "for" loop?
   - [ ] Output even numbers in the loop
   - [ ] Replace "for" with "while"
