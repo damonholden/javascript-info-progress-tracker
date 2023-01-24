@@ -77,7 +77,7 @@
   - [x] Last loop value
   - [x] Which values does the while loop show?
   - [x] Which values get shown by the "for" loop?
-  - [ ] Output even numbers in the loop
+  - [x] Output even numbers in the loop
   - [ ] Replace "for" with "while"
   - [ ] Repeat until the input is correct
   - [ ] Output prime numbers
