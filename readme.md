@@ -79,7 +79,7 @@
   - [x] Which values get shown by the "for" loop?
   - [x] Output even numbers in the loop
   - [x] Replace "for" with "while"
-  - [ ] Repeat until the input is correct
+  - [x] Repeat until the input is correct
   - [ ] Output prime numbers
 
 - [ ] The "switch" statement
