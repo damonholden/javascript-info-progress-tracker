@@ -80,7 +80,7 @@
   - [x] Output even numbers in the loop
   - [x] Replace "for" with "while"
   - [x] Repeat until the input is correct
-  - [ ] Output prime numbers
+  - [x] Output prime numbers
 
 - [ ] The "switch" statement
   - tasks:
