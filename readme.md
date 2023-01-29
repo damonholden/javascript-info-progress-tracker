@@ -82,7 +82,7 @@
   - [x] Repeat until the input is correct
   - [x] Output prime numbers
 
-- [ ] The "switch" statement
+- [x] The "switch" statement
   - tasks:
   - [ ] Rewrite the "switch" into an "if"
   - [ ] Rewrite "if" into "switch"
