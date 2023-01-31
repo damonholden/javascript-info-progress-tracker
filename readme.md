@@ -84,7 +84,7 @@
 
 - [x] The "switch" statement
   - tasks:
-  - [ ] Rewrite the "switch" into an "if"
+  - [x] Rewrite the "switch" into an "if"
   - [ ] Rewrite "if" into "switch"
 
 - [ ] Functions
