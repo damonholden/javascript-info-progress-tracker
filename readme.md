@@ -87,7 +87,7 @@
   - [x] Rewrite the "switch" into an "if"
   - [x] Rewrite "if" into "switch"
 
-- [ ] Functions
+- [x] Functions
   - tasks:
   - [ ] Is "else" required?
   - [ ] Rewrite the function using '?' or '||'
