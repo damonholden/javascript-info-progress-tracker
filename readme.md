@@ -90,7 +90,7 @@
 - [x] Functions
   - tasks:
   - [x] Is "else" required?
-  - [ ] Rewrite the function using '?' or '||'
+  - [x] Rewrite the function using '?' or '||'
   - [ ] Function min(a, b)
   - [ ] Function pow(x,n)
 
