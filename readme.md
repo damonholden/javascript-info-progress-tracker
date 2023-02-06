@@ -92,7 +92,7 @@
   - [x] Is "else" required?
   - [x] Rewrite the function using '?' or '||'
   - [x] Function min(a, b)
-  - [ ] Function pow(x,n)
+  - [x] Function pow(x,n)
 
 - [ ] Function expressions
 
