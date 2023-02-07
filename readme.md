@@ -94,7 +94,7 @@
   - [x] Function min(a, b)
   - [x] Function pow(x,n)
 
-- [ ] Function expressions
+- [x] Function expressions
 
 - [ ] Arrow functions, the basics
   - tasks:
