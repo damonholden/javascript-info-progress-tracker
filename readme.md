@@ -98,7 +98,7 @@
 
 - [x] Arrow functions, the basics
   - tasks:
-  - [ ] Rewrite with arrow functions
+  - [x] Rewrite with arrow functions
 
 - [ ] JavaScript specials
 
