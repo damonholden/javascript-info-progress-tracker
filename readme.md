@@ -96,7 +96,7 @@
 
 - [x] Function expressions
 
-- [ ] Arrow functions, the basics
+- [x] Arrow functions, the basics
   - tasks:
   - [ ] Rewrite with arrow functions
 
