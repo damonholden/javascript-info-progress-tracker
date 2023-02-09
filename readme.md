@@ -100,7 +100,7 @@
   - tasks:
   - [x] Rewrite with arrow functions
 
-- [ ] JavaScript specials
+- [x] JavaScript specials
 
 ### Code quality
 
