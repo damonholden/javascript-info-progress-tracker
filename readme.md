@@ -104,7 +104,7 @@
 
 ### Code quality
 
-- [ ] Debugging in the browser
+- [x] Debugging in the browser
 
 - [ ] Coding Style
   - tasks:
