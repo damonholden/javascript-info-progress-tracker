@@ -106,7 +106,7 @@
 
 - [x] Debugging in the browser
 
-- [ ] Coding Style
+- [x] Coding Style
   - tasks:
   - [ ] Bad style
 
