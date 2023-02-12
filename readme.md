@@ -108,7 +108,7 @@
 
 - [x] Coding Style
   - tasks:
-  - [ ] Bad style
+  - [x] Bad style
 
 - [ ] Comments
 
