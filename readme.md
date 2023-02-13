@@ -110,7 +110,7 @@
   - tasks:
   - [x] Bad style
 
-- [ ] Comments
+- [x] Comments
 
 - [ ] Ninja code
 
