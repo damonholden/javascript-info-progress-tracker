@@ -112,7 +112,7 @@
 
 - [x] Comments
 
-- [ ] Ninja code
+- [x] Ninja code
 
 - [ ] Automated testing with Mocha
   - tasks:
