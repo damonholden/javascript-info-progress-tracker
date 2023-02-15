@@ -114,7 +114,7 @@
 
 - [x] Ninja code
 
-- [ ] Automated testing with Mocha
+- [x] Automated testing with Mocha
   - tasks:
   - [ ] What's wrong in the test?
 
