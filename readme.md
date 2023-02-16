@@ -116,7 +116,7 @@
 
 - [x] Automated testing with Mocha
   - tasks:
-  - [ ] What's wrong in the test?
+  - [x] What's wrong in the test?
 
 - [ ] Polyfills and transpilers
 
