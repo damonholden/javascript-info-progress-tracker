@@ -118,7 +118,7 @@
   - tasks:
   - [x] What's wrong in the test?
 
-- [ ] Polyfills and transpilers
+- [x] Polyfills and transpilers
 
 ### Objects: the basics
 
