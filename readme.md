@@ -122,7 +122,7 @@
 
 ### Objects: the basics
 
-- [ ] Objects
+- [x] Objects
   - tasks:
   - [ ] Hello, object
   - [ ] Check for emptiness
