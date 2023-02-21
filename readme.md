@@ -125,7 +125,7 @@
 - [x] Objects
   - tasks:
   - [x] Hello, object
-  - [ ] Check for emptiness
+  - [x] Check for emptiness
   - [ ] Sum object properties
   - [ ] Multiply numeric property values by 2
 
