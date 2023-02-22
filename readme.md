@@ -126,7 +126,7 @@
   - tasks:
   - [x] Hello, object
   - [x] Check for emptiness
-  - [ ] Sum object properties
+  - [x] Sum object properties
   - [ ] Multiply numeric property values by 2
 
 - [ ] Object references and copying
