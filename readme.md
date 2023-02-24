@@ -129,7 +129,7 @@
   - [x] Sum object properties
   - [x] Multiply numeric property values by 2
 
-- [ ] Object references and copying
+- [x] Object references and copying
 
 - [ ] Garbage collection
 
