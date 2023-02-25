@@ -131,7 +131,7 @@
 
 - [x] Object references and copying
 
-- [ ] Garbage collection
+- [x] Garbage collection
 
 - [ ] Object methods, "this"
   - tasks:
