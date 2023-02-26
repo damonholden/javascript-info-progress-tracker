@@ -133,7 +133,7 @@
 
 - [x] Garbage collection
 
-- [ ] Object methods, "this"
+- [x] Object methods, "this"
   - tasks:
   - [ ] Using "this" in object literal
   - [ ] Create a calculator
