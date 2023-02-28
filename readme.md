@@ -136,7 +136,7 @@
 - [x] Object methods, "this"
   - tasks:
   - [x] Using "this" in object literal
-  - [ ] Create a calculator
+  - [x] Create a calculator
   - [ ] Chaining
 
 - [ ] Constructor, operator "new"
