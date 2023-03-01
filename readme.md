@@ -137,7 +137,7 @@
   - tasks:
   - [x] Using "this" in object literal
   - [x] Create a calculator
-  - [ ] Chaining
+  - [x]] Chaining
 
 - [ ] Constructor, operator "new"
   - tasks:
