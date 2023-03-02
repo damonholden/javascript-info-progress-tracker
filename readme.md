@@ -139,7 +139,7 @@
   - [x] Create a calculator
   - [x]] Chaining
 
-- [ ] Constructor, operator "new"
+- [x] Constructor, operator "new"
   - tasks:
   - [ ] Two functions – one object
   - [ ] Create new Calculator
