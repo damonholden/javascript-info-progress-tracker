@@ -137,13 +137,13 @@
   - tasks:
   - [x] Using "this" in object literal
   - [x] Create a calculator
-  - [x]] Chaining
+  - [x] Chaining
 
 - [x] Constructor, operator "new"
   - tasks:
   - [x] Two functions – one object
   - [x] Create new Calculator
-  - [ ] Create new Accumulator
+  - [x] Create new Accumulator
 
 - [ ] Optional chaining '?.'
 
