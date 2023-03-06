@@ -145,7 +145,7 @@
   - [x] Create new Calculator
   - [x] Create new Accumulator
 
-- [ ] Optional chaining '?.'
+- [x] Optional chaining '?.'
 
 - [ ] Symbol type
 
