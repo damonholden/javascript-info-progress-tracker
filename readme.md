@@ -147,7 +147,7 @@
 
 - [x] Optional chaining '?.'
 
-- [ ] Symbol type
+- [x] Symbol type
 
 - [ ] Object to primitive conversion
 
