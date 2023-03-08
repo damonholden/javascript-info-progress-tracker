@@ -149,7 +149,7 @@
 
 - [x] Symbol type
 
-- [ ] Object to primitive conversion
+- [x] Object to primitive conversion
 
 ### Data types
 
