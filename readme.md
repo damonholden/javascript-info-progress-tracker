@@ -153,7 +153,7 @@
 
 ### Data types
 
-- [ ] Methods of primitives
+- [x] Methods of primitives
   - tasks:
   - [ ] Can I add a string property?
 
