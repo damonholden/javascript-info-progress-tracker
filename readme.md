@@ -155,7 +155,7 @@
 
 - [x] Methods of primitives
   - tasks:
-  - [ ] Can I add a string property?
+  - [x] Can I add a string property?
 
 - [ ] Numbers
   - tasks:
