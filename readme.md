@@ -157,7 +157,7 @@
   - tasks:
   - [x] Can I add a string property?
 
-- [ ] Numbers
+- [x] Numbers
   - tasks:
   - [ ] Sum numbers from the visitor
   - [ ] Why 6.35.toFixed(1) == 6.3?
