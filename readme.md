@@ -160,7 +160,7 @@
 - [x] Numbers
   - tasks:
   - [x] Sum numbers from the visitor
-  - [ ] Why 6.35.toFixed(1) == 6.3?
+  - [x] Why 6.35.toFixed(1) == 6.3?
   - [ ] Repeat until the input is a number
   - [ ] An occasional infinite loop
   - [ ] A random number from min to max
