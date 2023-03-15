@@ -162,7 +162,7 @@
   - [x] Sum numbers from the visitor
   - [x] Why 6.35.toFixed(1) == 6.3?
   - [x] Repeat until the input is a number
-  - [ ] An occasional infinite loop
+  - [x] An occasional infinite loop
   - [ ] A random number from min to max
   - [ ] A random integer from min to max
 
