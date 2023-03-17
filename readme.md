@@ -164,7 +164,7 @@
   - [x] Repeat until the input is a number
   - [x] An occasional infinite loop
   - [x] A random number from min to max
-  - [ ] A random integer from min to max
+  - [x] A random integer from min to max
 
 - [ ] Strings
   - tasks:
