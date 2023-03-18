@@ -166,7 +166,7 @@
   - [x] A random number from min to max
   - [x] A random integer from min to max
 
-- [ ] Strings
+- [x] Strings
   - tasks:
   - [ ] Uppercase the first character
   - [ ] Check for spam
