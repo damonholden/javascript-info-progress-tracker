@@ -168,7 +168,7 @@
 
 - [x] Strings
   - tasks:
-  - [ ] Uppercase the first character
+  - [x] Uppercase the first character
   - [ ] Check for spam
   - [ ] Truncate the text
   - [ ] Extract the money
