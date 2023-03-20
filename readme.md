@@ -141,7 +141,7 @@
 
 - [x] Constructor, operator "new"
   - tasks:
-  - [x] Two functions – one object
+  - [x] Two functions - one object
   - [x] Create new Calculator
   - [x] Create new Accumulator
 
