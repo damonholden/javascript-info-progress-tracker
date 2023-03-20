@@ -169,7 +169,7 @@
 - [x] Strings
   - tasks:
   - [x] Uppercase the first character
-  - [ ] Check for spam
+  - [x] Check for spam
   - [ ] Truncate the text
   - [ ] Extract the money
 
