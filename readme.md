@@ -170,7 +170,7 @@
   - tasks:
   - [x] Uppercase the first character
   - [x] Check for spam
-  - [ ] Truncate the text
+  - [x] Truncate the text
   - [ ] Extract the money
 
 - [ ] Arrays
