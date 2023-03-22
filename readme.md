@@ -171,7 +171,7 @@
   - [x] Uppercase the first character
   - [x] Check for spam
   - [x] Truncate the text
-  - [ ] Extract the money
+  - [x] Extract the money
 
 - [ ] Arrays
   - tasks:
