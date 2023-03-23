@@ -173,7 +173,7 @@
   - [x] Truncate the text
   - [x] Extract the money
 
-- [ ] Arrays
+- [x] Arrays
   - tasks:
   - [ ] Is array copied?
   - [ ] Array operations.
