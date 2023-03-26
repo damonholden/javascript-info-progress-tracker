@@ -176,7 +176,7 @@
 - [x] Arrays
   - tasks:
   - [x] Is array copied?
-  - [x] Array operations.
+  - [ ] Array operations.
   - [ ] Calling in an array context
   - [ ] Sum input numbers
   - [ ] A maximal subarray
