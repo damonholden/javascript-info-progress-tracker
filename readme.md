@@ -178,7 +178,7 @@
   - [x] Is array copied?
   - [x] Array operations.
   - [x] Calling in an array context
-  - [ ] Sum input numbers
+  - [x] Sum input numbers
   - [ ] A maximal subarray
 
 - [ ] Array methods
