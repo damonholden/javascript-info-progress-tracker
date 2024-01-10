@@ -179,7 +179,7 @@
   - [x] Array operations.
   - [x] Calling in an array context
   - [x] Sum input numbers
-  - [ ] A maximal subarray
+  - [x] A maximal subarray
 
 - [ ] Array methods
   - tasks:
