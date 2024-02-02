@@ -183,7 +183,7 @@
 
 - [x] Array methods
   - tasks:
-  - [ ] Translate border-left-width to borderLeftWidth
+  - [x] Translate border-left-width to borderLeftWidth
   - [ ] Filter range
   - [ ] Filter range "in place"
   - [ ] Sort in decreasing order
