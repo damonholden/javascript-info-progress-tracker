@@ -185,7 +185,7 @@
   - tasks:
   - [x] Translate border-left-width to borderLeftWidth
   - [x] Filter range
-  - [ ] Filter range "in place"
+  - [x] Filter range "in place"
   - [ ] Sort in decreasing order
   - [ ] Copy and sort array
   - [ ] Create an extendable calculator
