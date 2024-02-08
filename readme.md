@@ -187,7 +187,7 @@
   - [x] Filter range
   - [x] Filter range "in place"
   - [x] Sort in decreasing order
-  - [ ] Copy and sort array
+  - [x] Copy and sort array
   - [ ] Create an extendable calculator
   - [ ] Map to names
   - [ ] Map to objects
