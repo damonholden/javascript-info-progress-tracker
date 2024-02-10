@@ -188,7 +188,7 @@
   - [x] Filter range "in place"
   - [x] Sort in decreasing order
   - [x] Copy and sort array
-  - [ ] Create an extendable calculator
+  - [x] Create an extendable calculator
   - [ ] Map to names
   - [ ] Map to objects
   - [ ] Sort users by age

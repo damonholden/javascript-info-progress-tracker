@@ -19,4 +19,22 @@ describe('Calculator', () => {
 			assert.strictEqual(calculator.calculate("4 - 2"), 2);
 		});
 	});
+
+	describe("Calculator.addMethod", () => {
+		it("adds a new operator to the calculator that the .calculate function can use", () => {
+			const calculator = new Calculator();
+
+			try {
+				calculator.calculate("2 / 2");
+			} catch (error) {
+				assert.strictEqual(error.message, 'an error occurred during calculation');
+			}
+
+			calculator.addMethod("/", (a, b) => {
+				return a / b;
+			});
+
+			assert.strictEqual(calculator.calculate("2 / 2"), 1);
+		});
+	});
 });
