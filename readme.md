@@ -190,7 +190,7 @@
   - [x] Copy and sort array
   - [x] Create an extendable calculator
   - [x] Map to names
-  - [ ] Map to objects
+  - [x] Map to objects
   - [ ] Sort users by age
   - [ ] Shuffle an array
   - [ ] Get average age
