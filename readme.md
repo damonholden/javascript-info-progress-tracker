@@ -192,7 +192,7 @@
   - [x] Map to names
   - [x] Map to objects
   - [x] Sort users by age
-  - [ ] Shuffle an array
+  - [x] Shuffle an array
   - [ ] Get average age
   - [ ] Filter unique array members
   - [ ] Create keyed object from array
