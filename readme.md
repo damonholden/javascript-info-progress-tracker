@@ -194,7 +194,7 @@
   - [x] Sort users by age
   - [x] Shuffle an array
   - [x] Get average age
-  - [ ] Filter unique array members
+  - [x] Filter unique array members
   - [ ] Create keyed object from array
 
 - [ ] Iterables
