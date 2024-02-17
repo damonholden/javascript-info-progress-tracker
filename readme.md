@@ -195,7 +195,7 @@
   - [x] Shuffle an array
   - [x] Get average age
   - [x] Filter unique array members
-  - [ ] Create keyed object from array
+  - [x] Create keyed object from array
 
 - [ ] Iterables
 
