@@ -197,7 +197,7 @@
   - [x] Filter unique array members
   - [x] Create keyed object from array
 
-- [ ] Iterables
+- [x] Iterables
 
 - [ ] Map and Set
   - tasks:
