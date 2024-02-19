@@ -199,7 +199,7 @@
 
 - [x] Iterables
 
-- [ ] Map and Set
+- [x] Map and Set
   - tasks:
   - [ ] Filter unique array members
   - [ ] Filter anagrams
