@@ -201,7 +201,7 @@
 
 - [x] Map and Set
   - tasks:
-  - [ ] Filter unique array members
+  - [x] Filter unique array members
   - [ ] Filter anagrams
   - [ ] Iterable keys
 
