@@ -202,7 +202,7 @@
 - [x] Map and Set
   - tasks:
   - [x] Filter unique array members
-  - [ ] Filter anagrams
+  - [x] Filter anagrams
   - [ ] Iterable keys
 
 - [ ] WeakMap and WeakSet
