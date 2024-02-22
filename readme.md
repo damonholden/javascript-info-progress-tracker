@@ -203,7 +203,7 @@
   - tasks:
   - [x] Filter unique array members
   - [x] Filter anagrams
-  - [ ] Iterable keys
+  - [x] Iterable keys
 
 - [ ] WeakMap and WeakSet
   - tasks:
