@@ -205,7 +205,7 @@
   - [x] Filter anagrams
   - [x] Iterable keys
 
-- [ ] WeakMap and WeakSet
+- [x] WeakMap and WeakSet
   - tasks:
   - [ ] Store "unread" flags
   - [ ] Store read dates
