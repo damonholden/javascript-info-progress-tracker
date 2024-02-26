@@ -208,7 +208,7 @@
 - [x] WeakMap and WeakSet
   - tasks:
   - [x] Store "unread" flags
-  - [ ] Store read dates
+  - [x] Store read dates
 
 - [ ] Object.keys, values, entries
   - tasks:
