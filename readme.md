@@ -210,7 +210,7 @@
   - [x] Store "unread" flags
   - [x] Store read dates
 
-- [ ] Object.keys, values, entries
+- [x] Object.keys, values, entries
   - tasks:
   - [ ] Sum the properties
   - [ ] Count properties
