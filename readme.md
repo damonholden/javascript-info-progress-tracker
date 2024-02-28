@@ -212,7 +212,7 @@
 
 - [x] Object.keys, values, entries
   - tasks:
-  - [ ] Sum the properties
+  - [x] Sum the properties
   - [ ] Count properties
 
 - [ ] Destructuring assignment
