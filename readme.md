@@ -215,7 +215,7 @@
   - [x] Sum the properties
   - [x] Count properties
 
-- [ ] Destructuring assignment
+- [x] Destructuring assignment
   - tasks:
   - [ ] Destructuring assignment
   - [ ] The maximal salary
