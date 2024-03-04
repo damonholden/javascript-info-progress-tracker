@@ -218,7 +218,7 @@
 - [x] Destructuring assignment
   - tasks:
   - [x] Destructuring assignment
-  - [ ] The maximal salary
+  - [x] The maximal salary
 
 - [ ] Date and time
   - tasks:
