@@ -31,6 +31,30 @@ new Date(year, month, date, hours, minutes, seconds, ms)
 - The date parameter is actually the day of month, if absent then 1 is assumed.
 - If hours/minutes/seconds/ms is absent, they are assumed to be equal 0.
 
+The Maximal precision for a date is 1ms.
+
+## Access date components
+
+There are various methods that exist to get different parts of a date:
+
+- `getFullYear()` - some engineers implement a custom `getYear`, which has been deprecated.
+- `getMonth()`
+- `getDate()`
+- `getHours()`
+- `getMinutes()`
+- `getSeconds()`
+- `getMilliseconds()`
+- `getDay()`
+
+There are also UTC alternatives, that follow the same pattern as above, but with "UTC" after "get".
+
+There are also two "special" methods:
+
+- `getTime()` - Returns the epoch time for the date. 
+- `getTimezoneOffset()` - returns difference beween UTC and local timezone in minutes.
+
+## Setting Date Component
+
 
 
 
