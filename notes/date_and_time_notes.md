@@ -55,10 +55,18 @@ There are also two "special" methods:
 
 ## Setting Date Component
 
+The following methods allow setting individual parts of a Date object:
 
+- `setFullYear(year, [month], [date])`
+- `setMonth(month, [date])`
+- `setDate(date)`
+- `setHours(hour, [min], [sec], [ms])`
+- `setMinutes(min, [sec], [ms])`
+- `setSeconds(sec, [ms])`
+- `setMilliseconds(ms)`
+- `setTime(milliseconds)` (sets the whole date by milliseconds since 01.01.1970 UTC (epoch))
 
+Every method above, other than `setTime` has a UTC varient.
 
-
-
-
+Any component not part of one of these methods; parameters will not be modified.
 
