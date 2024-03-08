@@ -70,3 +70,19 @@ Every method above, other than `setTime` has a UTC varient.
 
 Any component not part of one of these methods; parameters will not be modified.
 
+## Autocorrection
+
+`Date` objects have a autocorrection feature where out-of-range component values will be handled automatically. For example:
+
+```
+new Date(2013, 0, 32); // 1st Feb 2013
+```
+
+This can also be used to get a date or time in the future or past in a readable way:
+
+```
+const date = new Date();
+date.setSeconds(date.getSeconds() + 70);
+```
+
+
