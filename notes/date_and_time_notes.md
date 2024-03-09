@@ -1,6 +1,6 @@
 # Date and Time notes
 
-`Date` is another built-in object in JavaScript that is used to store date and time values and provides methods to manage those values. 
+`Date` is another built-in object in JavaScript that is used to store date and time values and provides methods to manage those values.
 
 ## Creation
 
@@ -50,8 +50,8 @@ There are also UTC alternatives, that follow the same pattern as above, but with
 
 There are also two "special" methods:
 
-- `getTime()` - Returns the epoch time for the date. 
-- `getTimezoneOffset()` - returns difference beween UTC and local timezone in minutes.
+- `getTime()` - Returns the epoch time for the date.
+- `getTimezoneOffset()` - returns difference between UTC and local timezone in minutes.
 
 ## Setting Date Component
 
@@ -66,7 +66,7 @@ The following methods allow setting individual parts of a Date object:
 - `setMilliseconds(ms)`
 - `setTime(milliseconds)` (sets the whole date by milliseconds since 01.01.1970 UTC (epoch))
 
-Every method above, other than `setTime` has a UTC varient.
+Every method above, other than `setTime` has a UTC variant.
 
 Any component not part of one of these methods; parameters will not be modified.
 
@@ -85,4 +85,22 @@ const date = new Date();
 date.setSeconds(date.getSeconds() + 70);
 ```
 
+## Date to number, date diff
 
+a `Date` object converted to a number becomes an epoch timestamp, the same behaviour as `date.getTime()`.
+
+This behaviour allows  `Date`objects to be used in mathematical operators:
+
+```
+const startTimeMeasurement = new Date();
+
+for (let i = 0; i < 100000; i++) {
+  doSomething(i * i * i)
+}
+
+const endTimeMeasurement = new Date();
+
+alert( `The loop took ${endTimeMeasurement - startTimeMeasurement} ms` );
+```
+
+## Date.now()
