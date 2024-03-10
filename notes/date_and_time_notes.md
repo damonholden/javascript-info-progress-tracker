@@ -104,3 +104,11 @@ alert( `The loop took ${endTimeMeasurement - startTimeMeasurement} ms` );
 ```
 
 ## Date.now()
+
+If all you want is to get the current epoch timestamp, you can simply use the `now` method on the `Date` class in order to get this, without the need to instantiate the class:
+
+```
+Date.now() // equivalent to `new Date().getTime()`
+```
+
+Not only is this method of getting the epoch timestamp simpler, but its also faster and reduces intensity on the garbage collector.
