@@ -112,3 +112,16 @@ Date.now() // equivalent to `new Date().getTime()`
 ```
 
 Not only is this method of getting the epoch timestamp simpler, but its also faster and reduces intensity on the garbage collector.
+
+## Date.parse from a string
+
+`Date.parse()` can return an epoch timestamp when passed a valid date string where `YYYY-MM-DDTHH:mm:ss.sssZ`:
+
+- `YYYY-MM-DD` – is the date: year-month-day.
+- The character `T` is used as the delimiter.
+- `HH:mm:ss.sss` – is the time: hours, minutes, seconds and milliseconds.
+- The optional `Z` part denotes the time zone in the format +-hh:mm. A single letter Z would mean UTC+0.
+
+Shorter variants can also be provided, like `YYYY-MM-DD`, `YYYY-MM`, `YYYY`.
+
+`Date.parse()` returns `NaN` if the date is invalid.
