@@ -125,3 +125,7 @@ Not only is this method of getting the epoch timestamp simpler, but its also fas
 Shorter variants can also be provided, like `YYYY-MM-DD`, `YYYY-MM`, `YYYY`.
 
 `Date.parse()` returns `NaN` if the date is invalid.
+
+## Microseconds
+
+JavaScripts `Date` class can only be accurate to the millisecond, if accuracy is needed to the microsecond - JavaScript environments typically provide an API that provides that. Browsers have `performance.now()`, that gives the amount of milliseconds from page load, and Node.js provides the `microtime` module. Just remember, microseconds are not part of `Date`.

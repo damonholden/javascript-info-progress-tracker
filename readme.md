@@ -220,7 +220,7 @@
   - [x] Destructuring assignment
   - [x] The maximal salary
 
-- [ ] Date and time
+- [x] Date and time
   - tasks:
   - [ ] Create a date
   - [ ] Show a weekday
