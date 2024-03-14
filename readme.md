@@ -223,7 +223,7 @@
 - [x] Date and time
   - tasks:
   - [x] Create a date
-  - [ ] Show a weekday
+  - [x] Show a weekday
   - [ ] European weekday
   - [ ] Which day of month was many days ago?
   - [ ] Last day of month?
