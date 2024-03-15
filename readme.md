@@ -224,7 +224,7 @@
   - tasks:
   - [x] Create a date
   - [x] Show a weekday
-  - [ ] European weekday
+  - [x] European weekday
   - [ ] Which day of month was many days ago?
   - [ ] Last day of month?
   - [ ] How many seconds have passed today?
