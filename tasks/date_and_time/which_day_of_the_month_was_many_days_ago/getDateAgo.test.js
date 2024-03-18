@@ -5,7 +5,7 @@ import { getDateAgo } from "./getDateAgo.js";
 describe("getDateAgo", () => {
 	it("should return a new Date abject x days ago", () => {
 		const date = new Date("2000");
-		expect.deepEqual(getDateAgo(date, 1), 31);
+		expect.strictEqual(getDateAgo(date, 1), 31);
 	});
 
 
@@ -14,5 +14,12 @@ describe("getDateAgo", () => {
 		getDateAgo(date, 1);
 
 		expect.deepEqual(date, new Date("2000"));
+	});
+
+
+	it("should correctly handle days ago more than 365", () => {
+		const date = new Date("2000");
+
+		expect.strictEqual(getDateAgo(date, 366), 31);
 	});
 });

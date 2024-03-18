@@ -225,7 +225,7 @@
   - [x] Create a date
   - [x] Show a weekday
   - [x] European weekday
-  - [ ] Which day of month was many days ago?
+  - [x] Which day of month was many days ago?
   - [ ] Last day of month?
   - [ ] How many seconds have passed today?
   - [ ] How many seconds till tomorrow?
