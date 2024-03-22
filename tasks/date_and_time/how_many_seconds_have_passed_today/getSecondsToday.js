@@ -1,6 +1,7 @@
 export function getSecondsToday() {
-	const date = new Date();
-	date.setHours(0, 0, 0, 0);
+	const todayWithTimeSetToZero = new Date().setHours(0, 0, 0, 0);
+	const millisecondsElapsedToday = Date.now() - todayWithTimeSetToZero;
+	const secondsElapsedToday = millisecondsElapsedToday / 1000;
 
-	return (Date.now() - date.getTime()) / 1000;
+	return secondsElapsedToday;
 }
