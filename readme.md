@@ -227,7 +227,7 @@
   - [x] European weekday
   - [x] Which day of month was many days ago?
   - [x] Last day of month?
-  - [ ] How many seconds have passed today?
+  - [x] How many seconds have passed today?
   - [ ] How many seconds till tomorrow?
   - [ ] Format the relative date
 
