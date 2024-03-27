@@ -1,10 +1,8 @@
 export function getSecondsToTomorrow() {
-	const tomorrow = new Date();
-	tomorrow.setDate(tomorrow.getDate() + 1);
-	tomorrow.setHours(0);
-	tomorrow.setMinutes(0);
-	tomorrow.setSeconds(0);
-	tomorrow.setMilliseconds(0);
+	const now = new Date();
+	const tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+	const milliSecondsToTomorrow = tomorrow.getTime() - now.getTime();
+	const secondsToTomorrow = milliSecondsToTomorrow / 1000;
 
-	return (tomorrow.getTime() - Date.now()) / 1000;
+	return secondsToTomorrow;
 }
