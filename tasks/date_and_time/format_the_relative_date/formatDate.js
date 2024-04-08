@@ -5,4 +5,9 @@ export function formatDate(date) {
         return "right now"
     }
 
+    if (now - date < 60_000) {
+        const difference = now - date
+        const differenceAsSeconds = difference / 1000
+        return `${differenceAsSeconds} sec. ago`
+    }
 }
