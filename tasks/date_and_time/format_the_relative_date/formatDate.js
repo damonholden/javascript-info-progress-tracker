@@ -5,15 +5,15 @@ export function formatDate(date) {
         return "right now";
     }
 
+    const timeDifference = now - date;
+
     if (now - date < 60_000) {
-        const difference = now - date;
-        const differenceAsSeconds = difference / 1000;
+        const differenceAsSeconds = timeDifference / 1000;
         return `${differenceAsSeconds} sec. ago`;
     }
 
     if (now - date < 3_600_000) {
-        const difference = now - date;
-        const differenceAsMinutes = difference / 1000 / 60;
+        const differenceAsMinutes = timeDifference / 1000 / 60;
         return `${differenceAsMinutes} min. ago`;
     }
 }
