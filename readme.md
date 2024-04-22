@@ -229,7 +229,7 @@
   - [x] Last day of month?
   - [x] How many seconds have passed today?
   - [x] How many seconds till tomorrow?
-  - [ ] Format the relative date
+  - [x] Format the relative date
 
 - [ ] JSON methods, toJSON
   - tasks:
