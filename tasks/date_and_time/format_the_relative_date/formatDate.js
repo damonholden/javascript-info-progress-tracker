@@ -17,26 +17,28 @@ export function formatDate(date) {
         return `${differenceAsMinutes} min. ago`;
     }
 
-    let days = String(date.getDate());
-    if (days.length === 1) {
-        days = `0${days}`;
-    }
+    let days = convertSingleDigitStringToTwoDigits(String(date.getDate()));
 
-    let month = String(date.getMonth() + 1);
-    if (month.length === 1) {
-        month = `0${month}`;
-    }
+    let month = convertSingleDigitStringToTwoDigits(
+        String(date.getMonth() + 1)
+    );
 
     const year = String(date.getFullYear());
+
     const lastTwoDigitsOfYear = year.substring(year.length - 2);
 
-    let hours = String(date.getHours());
-    if (hours.length === 1) {
-        hours = `0${hours}`;
-    }
-    let minutes = String(date.getMinutes());
-    if (minutes.length === 1) {
-        minutes = `0${minutes}`;
-    }
+    const hours = convertSingleDigitStringToTwoDigits(String(date.getHours()));
+
+    const minutes = convertSingleDigitStringToTwoDigits(
+        String(date.getMinutes())
+    );
     return `${days}.${month}.${lastTwoDigitsOfYear} ${hours}:${minutes}`;
+}
+
+function convertSingleDigitStringToTwoDigits(string) {
+    if (string.length === 1) {
+        string = `0${string}`;
+    }
+
+    return string;
 }
