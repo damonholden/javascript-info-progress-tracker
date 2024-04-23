@@ -4,745 +4,824 @@
 
 ### An introduction
 
-- [x] An Introduction to JavaScript
+-   [x] An Introduction to JavaScript
 
-- [x] Manuals and specifications
+-   [x] Manuals and specifications
 
-- [x] Code editors
+-   [x] Code editors
 
-- [x] Developer console
+-   [x] Developer console
 
 ### JavaScript Fundamentals
 
-- [x] Hello, world!
-  - tasks:
-  - [x] Show an alert
-  - [x] Show an alert with an external script
+-   [x] Hello, world!
 
-- [x] Code structure
+    -   tasks:
+    -   [x] Show an alert
+    -   [x] Show an alert with an external script
 
-- [x] The modern mode, "use strict"
+-   [x] Code structure
 
-- [x] Variables
-  - tasks:
-  - [x] Working with variables
-  - [x] Giving the right name
-  - [x] Uppercase const?
+-   [x] The modern mode, "use strict"
 
-- [x] Data types
-  - tasks:
-  - [x] String quotes
+-   [x] Variables
 
-- [x] Interaction: alert, prompt, confirm
-  - tasks:
-  - [x] A simple page
+    -   tasks:
+    -   [x] Working with variables
+    -   [x] Giving the right name
+    -   [x] Uppercase const?
 
-- [x] Type Conversions
+-   [x] Data types
 
-- [x] Basic operators, maths
-  - tasks:
-  - [x] The postfix and prefix forms
-  - [x] Assignment result
-  - [x] Type conversions
-  - [x] Fix the addition
+    -   tasks:
+    -   [x] String quotes
 
-- [x] Comparisons
-  - tasks:
-  - [x] Comparisons
+-   [x] Interaction: alert, prompt, confirm
 
-- [x] Conditional branching: if, '?'
-  - tasks:
-  - [x] if (a string with zero)
-  - [x] The name of JavaScript
-  - [x] Show the sign
-  - [x] Rewrite 'if' into '?'
-  - [x] Rewrite 'if..else' into '?'
+    -   tasks:
+    -   [x] A simple page
 
-- [x] Logical operators
-  - tasks:
-  - [x] What's the result of OR?
-  - [x] What's the result of OR'ed alerts?
-  - [x] What is the result of AND?
-  - [x] What is the result of AND'ed alerts?
-  - [x] The result of OR AND OR
-  - [x] Check the range between
-  - [x] Check the range outside
-  - [x] A question about "if"
-  - [x] Check the login
+-   [x] Type Conversions
 
-- [x] Nullish coalescing operator '??'
+-   [x] Basic operators, maths
 
-- [x] Loops: while and for
-  - tasks:
-  - [x] Last loop value
-  - [x] Which values does the while loop show?
-  - [x] Which values get shown by the "for" loop?
-  - [x] Output even numbers in the loop
-  - [x] Replace "for" with "while"
-  - [x] Repeat until the input is correct
-  - [x] Output prime numbers
+    -   tasks:
+    -   [x] The postfix and prefix forms
+    -   [x] Assignment result
+    -   [x] Type conversions
+    -   [x] Fix the addition
 
-- [x] The "switch" statement
-  - tasks:
-  - [x] Rewrite the "switch" into an "if"
-  - [x] Rewrite "if" into "switch"
+-   [x] Comparisons
 
-- [x] Functions
-  - tasks:
-  - [x] Is "else" required?
-  - [x] Rewrite the function using '?' or '||'
-  - [x] Function min(a, b)
-  - [x] Function pow(x,n)
+    -   tasks:
+    -   [x] Comparisons
 
-- [x] Function expressions
+-   [x] Conditional branching: if, '?'
 
-- [x] Arrow functions, the basics
-  - tasks:
-  - [x] Rewrite with arrow functions
+    -   tasks:
+    -   [x] if (a string with zero)
+    -   [x] The name of JavaScript
+    -   [x] Show the sign
+    -   [x] Rewrite 'if' into '?'
+    -   [x] Rewrite 'if..else' into '?'
 
-- [x] JavaScript specials
+-   [x] Logical operators
+
+    -   tasks:
+    -   [x] What's the result of OR?
+    -   [x] What's the result of OR'ed alerts?
+    -   [x] What is the result of AND?
+    -   [x] What is the result of AND'ed alerts?
+    -   [x] The result of OR AND OR
+    -   [x] Check the range between
+    -   [x] Check the range outside
+    -   [x] A question about "if"
+    -   [x] Check the login
+
+-   [x] Nullish coalescing operator '??'
+
+-   [x] Loops: while and for
+
+    -   tasks:
+    -   [x] Last loop value
+    -   [x] Which values does the while loop show?
+    -   [x] Which values get shown by the "for" loop?
+    -   [x] Output even numbers in the loop
+    -   [x] Replace "for" with "while"
+    -   [x] Repeat until the input is correct
+    -   [x] Output prime numbers
+
+-   [x] The "switch" statement
+
+    -   tasks:
+    -   [x] Rewrite the "switch" into an "if"
+    -   [x] Rewrite "if" into "switch"
+
+-   [x] Functions
+
+    -   tasks:
+    -   [x] Is "else" required?
+    -   [x] Rewrite the function using '?' or '||'
+    -   [x] Function min(a, b)
+    -   [x] Function pow(x,n)
+
+-   [x] Function expressions
+
+-   [x] Arrow functions, the basics
+
+    -   tasks:
+    -   [x] Rewrite with arrow functions
+
+-   [x] JavaScript specials
 
 ### Code quality
 
-- [x] Debugging in the browser
+-   [x] Debugging in the browser
 
-- [x] Coding Style
-  - tasks:
-  - [x] Bad style
+-   [x] Coding Style
 
-- [x] Comments
+    -   tasks:
+    -   [x] Bad style
 
-- [x] Ninja code
+-   [x] Comments
 
-- [x] Automated testing with Mocha
-  - tasks:
-  - [x] What's wrong in the test?
+-   [x] Ninja code
 
-- [x] Polyfills and transpilers
+-   [x] Automated testing with Mocha
+
+    -   tasks:
+    -   [x] What's wrong in the test?
+
+-   [x] Polyfills and transpilers
 
 ### Objects: the basics
 
-- [x] Objects
-  - tasks:
-  - [x] Hello, object
-  - [x] Check for emptiness
-  - [x] Sum object properties
-  - [x] Multiply numeric property values by 2
+-   [x] Objects
 
-- [x] Object references and copying
+    -   tasks:
+    -   [x] Hello, object
+    -   [x] Check for emptiness
+    -   [x] Sum object properties
+    -   [x] Multiply numeric property values by 2
 
-- [x] Garbage collection
+-   [x] Object references and copying
 
-- [x] Object methods, "this"
-  - tasks:
-  - [x] Using "this" in object literal
-  - [x] Create a calculator
-  - [x] Chaining
+-   [x] Garbage collection
 
-- [x] Constructor, operator "new"
-  - tasks:
-  - [x] Two functions - one object
-  - [x] Create new Calculator
-  - [x] Create new Accumulator
+-   [x] Object methods, "this"
 
-- [x] Optional chaining '?.'
+    -   tasks:
+    -   [x] Using "this" in object literal
+    -   [x] Create a calculator
+    -   [x] Chaining
 
-- [x] Symbol type
+-   [x] Constructor, operator "new"
 
-- [x] Object to primitive conversion
+    -   tasks:
+    -   [x] Two functions - one object
+    -   [x] Create new Calculator
+    -   [x] Create new Accumulator
+
+-   [x] Optional chaining '?.'
+
+-   [x] Symbol type
+
+-   [x] Object to primitive conversion
 
 ### Data types
 
-- [x] Methods of primitives
-  - tasks:
-  - [x] Can I add a string property?
+-   [x] Methods of primitives
 
-- [x] Numbers
-  - tasks:
-  - [x] Sum numbers from the visitor
-  - [x] Why 6.35.toFixed(1) == 6.3?
-  - [x] Repeat until the input is a number
-  - [x] An occasional infinite loop
-  - [x] A random number from min to max
-  - [x] A random integer from min to max
+    -   tasks:
+    -   [x] Can I add a string property?
 
-- [x] Strings
-  - tasks:
-  - [x] Uppercase the first character
-  - [x] Check for spam
-  - [x] Truncate the text
-  - [x] Extract the money
+-   [x] Numbers
 
-- [x] Arrays
-  - tasks:
-  - [x] Is array copied?
-  - [x] Array operations.
-  - [x] Calling in an array context
-  - [x] Sum input numbers
-  - [x] A maximal subarray
+    -   tasks:
+    -   [x] Sum numbers from the visitor
+    -   [x] Why 6.35.toFixed(1) == 6.3?
+    -   [x] Repeat until the input is a number
+    -   [x] An occasional infinite loop
+    -   [x] A random number from min to max
+    -   [x] A random integer from min to max
 
-- [x] Array methods
-  - tasks:
-  - [x] Translate border-left-width to borderLeftWidth
-  - [x] Filter range
-  - [x] Filter range "in place"
-  - [x] Sort in decreasing order
-  - [x] Copy and sort array
-  - [x] Create an extendable calculator
-  - [x] Map to names
-  - [x] Map to objects
-  - [x] Sort users by age
-  - [x] Shuffle an array
-  - [x] Get average age
-  - [x] Filter unique array members
-  - [x] Create keyed object from array
+-   [x] Strings
 
-- [x] Iterables
+    -   tasks:
+    -   [x] Uppercase the first character
+    -   [x] Check for spam
+    -   [x] Truncate the text
+    -   [x] Extract the money
 
-- [x] Map and Set
-  - tasks:
-  - [x] Filter unique array members
-  - [x] Filter anagrams
-  - [x] Iterable keys
+-   [x] Arrays
 
-- [x] WeakMap and WeakSet
-  - tasks:
-  - [x] Store "unread" flags
-  - [x] Store read dates
+    -   tasks:
+    -   [x] Is array copied?
+    -   [x] Array operations.
+    -   [x] Calling in an array context
+    -   [x] Sum input numbers
+    -   [x] A maximal subarray
 
-- [x] Object.keys, values, entries
-  - tasks:
-  - [x] Sum the properties
-  - [x] Count properties
+-   [x] Array methods
 
-- [x] Destructuring assignment
-  - tasks:
-  - [x] Destructuring assignment
-  - [x] The maximal salary
+    -   tasks:
+    -   [x] Translate border-left-width to borderLeftWidth
+    -   [x] Filter range
+    -   [x] Filter range "in place"
+    -   [x] Sort in decreasing order
+    -   [x] Copy and sort array
+    -   [x] Create an extendable calculator
+    -   [x] Map to names
+    -   [x] Map to objects
+    -   [x] Sort users by age
+    -   [x] Shuffle an array
+    -   [x] Get average age
+    -   [x] Filter unique array members
+    -   [x] Create keyed object from array
 
-- [x] Date and time
-  - tasks:
-  - [x] Create a date
-  - [x] Show a weekday
-  - [x] European weekday
-  - [x] Which day of month was many days ago?
-  - [x] Last day of month?
-  - [x] How many seconds have passed today?
-  - [x] How many seconds till tomorrow?
-  - [x] Format the relative date
+-   [x] Iterables
 
-- [ ] JSON methods, toJSON
-  - tasks:
-  - [ ] Turn the object into JSON and back
-  - [ ] Exclude backreferences
+-   [x] Map and Set
+
+    -   tasks:
+    -   [x] Filter unique array members
+    -   [x] Filter anagrams
+    -   [x] Iterable keys
+
+-   [x] WeakMap and WeakSet
+
+    -   tasks:
+    -   [x] Store "unread" flags
+    -   [x] Store read dates
+
+-   [x] Object.keys, values, entries
+
+    -   tasks:
+    -   [x] Sum the properties
+    -   [x] Count properties
+
+-   [x] Destructuring assignment
+
+    -   tasks:
+    -   [x] Destructuring assignment
+    -   [x] The maximal salary
+
+-   [x] Date and time
+
+    -   tasks:
+    -   [x] Create a date
+    -   [x] Show a weekday
+    -   [x] European weekday
+    -   [x] Which day of month was many days ago?
+    -   [x] Last day of month?
+    -   [x] How many seconds have passed today?
+    -   [x] How many seconds till tomorrow?
+    -   [x] Format the relative date
+
+-   [] JSON methods, toJSON
+    -   tasks:
+    -   [ ] Turn the object into JSON and back
+    -   [ ] Exclude backreferences
 
 ### Advanced working with functions
 
-- [ ] Recursion and stack
-  - tasks:
-  - [ ] Sum all numbers till the given one
-  - [ ] Calculate factorial
-  - [ ] Fibonacci numbers
-  - [ ] Output a single-linked list
-  - [ ] Output a single-linked list in the reverse order
+-   [ ] Recursion and stack
 
-- [ ] Rest parameters and spread syntax
+    -   tasks:
+    -   [ ] Sum all numbers till the given one
+    -   [ ] Calculate factorial
+    -   [ ] Fibonacci numbers
+    -   [ ] Output a single-linked list
+    -   [ ] Output a single-linked list in the reverse order
 
-- [ ] Variable scope, closure
-  - tasks:
-  - [ ] Does a function pickup latest changes?
-  - [ ] Which variables are available?
-  - [ ] Are counters independent?
-  - [ ] Counter object
-  - [ ] Function in if
-  - [ ] Sum with closures
-  - [ ] Is variable visible?
-  - [ ] Filter through function
-  - [ ] Sort by field
-  - [ ] Army of functions
+-   [ ] Rest parameters and spread syntax
 
-- [ ] The old "var"
+-   [ ] Variable scope, closure
 
-- [ ] Global object
+    -   tasks:
+    -   [ ] Does a function pickup latest changes?
+    -   [ ] Which variables are available?
+    -   [ ] Are counters independent?
+    -   [ ] Counter object
+    -   [ ] Function in if
+    -   [ ] Sum with closures
+    -   [ ] Is variable visible?
+    -   [ ] Filter through function
+    -   [ ] Sort by field
+    -   [ ] Army of functions
 
-- [ ] Function object, NFE
-  - tasks:
-  - [ ] Set and decrease for counter
-  - [ ] Sum with an arbitrary amount of brackets
+-   [ ] The old "var"
 
-- [ ] The "new Function" syntax
+-   [ ] Global object
 
-- [ ] Scheduling: setTimeout and setInterval
-  - tasks:
-  - [ ] Output every second
-  - [ ] What will setTimeout show?
+-   [ ] Function object, NFE
 
-- [ ] Decorators and forwarding, call/apply
-  - tasks:
-  - [ ] Spy decorator
-  - [ ] Delaying decorator
-  - [ ] Debounce decorator
-  - [ ] Throttle decorator
+    -   tasks:
+    -   [ ] Set and decrease for counter
+    -   [ ] Sum with an arbitrary amount of brackets
 
-- [ ] Function binding
-  - tasks:
-  - [ ] Bound function as a method
-  - [ ] Second bind
-  - [ ] Function property after bind
-  - [ ] Fix a function that loses "this"
-  - [ ] Partial application for login
+-   [ ] The "new Function" syntax
 
-- [ ] Arrow functions revisited
+-   [ ] Scheduling: setTimeout and setInterval
+
+    -   tasks:
+    -   [ ] Output every second
+    -   [ ] What will setTimeout show?
+
+-   [ ] Decorators and forwarding, call/apply
+
+    -   tasks:
+    -   [ ] Spy decorator
+    -   [ ] Delaying decorator
+    -   [ ] Debounce decorator
+    -   [ ] Throttle decorator
+
+-   [ ] Function binding
+
+    -   tasks:
+    -   [ ] Bound function as a method
+    -   [ ] Second bind
+    -   [ ] Function property after bind
+    -   [ ] Fix a function that loses "this"
+    -   [ ] Partial application for login
+
+-   [ ] Arrow functions revisited
 
 ### Object properties configuration
 
-- [ ] Property flags and descriptors
+-   [ ] Property flags and descriptors
 
-- [ ] Property getters and setters
+-   [ ] Property getters and setters
 
 ### Prototypes, inheritance
 
-- [ ] Prototypal inheritance
-  - tasks:
-  - [ ] Working with prototype
-  - [ ] Searching algorithm
-  - [ ] Where does it write?
-  - [ ] Why are both hamsters full?
+-   [ ] Prototypal inheritance
 
-- [ ] F.prototype
-  - tasks:
-  - [ ] Changing "prototype"
-  - [ ] Create an object with the same constructor
+    -   tasks:
+    -   [ ] Working with prototype
+    -   [ ] Searching algorithm
+    -   [ ] Where does it write?
+    -   [ ] Why are both hamsters full?
 
-- [ ] Native prototypes
-  - tasks:
-  - [ ] Add method "f.defer(ms)" to functions
-  - [ ] Add the decorating "defer()" to functions
+-   [ ] F.prototype
 
-- [ ] Prototype methods, objects without __proto__
-  - tasks:
-  - [ ] Add toString to the dictionary
-  - [ ] The difference between calls
+    -   tasks:
+    -   [ ] Changing "prototype"
+    -   [ ] Create an object with the same constructor
+
+-   [ ] Native prototypes
+
+    -   tasks:
+    -   [ ] Add method "f.defer(ms)" to functions
+    -   [ ] Add the decorating "defer()" to functions
+
+-   [ ] Prototype methods, objects without **proto**
+    -   tasks:
+    -   [ ] Add toString to the dictionary
+    -   [ ] The difference between calls
 
 ### Classes
 
-- [ ] Class basic syntax
-  - tasks:
-  - [ ] Rewrite to class
+-   [ ] Class basic syntax
 
-- [ ] Class inheritance
-  - tasks:
-  - [ ] Error creating an instance
-  - [ ] Extended clock
+    -   tasks:
+    -   [ ] Rewrite to class
 
-- [ ] Static properties and methods
-  - tasks:
-  - [ ] Class extends Object?
+-   [ ] Class inheritance
 
-- [ ] Private and protected properties and methods
+    -   tasks:
+    -   [ ] Error creating an instance
+    -   [ ] Extended clock
 
-- [ ] Extending built-in classes
+-   [ ] Static properties and methods
 
-- [ ] Class checking: "instanceof"
-  - tasks:
-  - [ ] Strange instanceof
+    -   tasks:
+    -   [ ] Class extends Object?
 
-- [ ] Mixins
+-   [ ] Private and protected properties and methods
+
+-   [ ] Extending built-in classes
+
+-   [ ] Class checking: "instanceof"
+
+    -   tasks:
+    -   [ ] Strange instanceof
+
+-   [ ] Mixins
 
 ### Error handling
 
-- [ ] Error handling, "try...catch"
-  - tasks:
-  - [ ] Finally or just the code?
+-   [ ] Error handling, "try...catch"
 
-- [ ] Custom errors, extending Error
-  - tasks:
-  - [ ] Inherit from SyntaxError
+    -   tasks:
+    -   [ ] Finally or just the code?
+
+-   [ ] Custom errors, extending Error
+    -   tasks:
+    -   [ ] Inherit from SyntaxError
 
 ### Promises, async/await
 
-- [ ] Introduction: callbacks
+-   [ ] Introduction: callbacks
 
-- [ ] Promise
-  - tasks:
-  - [ ] Re-resolve a promise?
-  - [ ] Delay with a promise
-  - [ ] Animated circle with promise
+-   [ ] Promise
 
-- [ ] Promises chaining
-  - tasks:
-  - [ ] Promise: then versus catch
+    -   tasks:
+    -   [ ] Re-resolve a promise?
+    -   [ ] Delay with a promise
+    -   [ ] Animated circle with promise
 
-- [ ] Error handling with promises
-  - tasks:
-  - [ ] Error in setTimeout
+-   [ ] Promises chaining
 
-- [ ] Promise API
+    -   tasks:
+    -   [ ] Promise: then versus catch
 
-- [ ] Promisification
+-   [ ] Error handling with promises
 
-- [ ] Microtasks
+    -   tasks:
+    -   [ ] Error in setTimeout
 
-- [ ] Async/await
-  - tasks:
-  - [ ] Rewrite using async/await
-  - [ ] Rewrite "rethrow" with async/await
-  - [ ] Call async from non-async
+-   [ ] Promise API
+
+-   [ ] Promisification
+
+-   [ ] Microtasks
+
+-   [ ] Async/await
+    -   tasks:
+    -   [ ] Rewrite using async/await
+    -   [ ] Rewrite "rethrow" with async/await
+    -   [ ] Call async from non-async
 
 ### Generators, advanced iteration
 
-- [ ] Generators
-  - tasks:
-  - [ ] Pseudo-random generator
+-   [ ] Generators
 
-- [ ] Async iteration and generators
+    -   tasks:
+    -   [ ] Pseudo-random generator
+
+-   [ ] Async iteration and generators
 
 ### Modules
 
-- [ ] Modules, introduction
+-   [ ] Modules, introduction
 
-- [ ] Export and Import
+-   [ ] Export and Import
 
-- [ ] Dynamic imports
+-   [ ] Dynamic imports
 
 ### Miscellaneous
 
-- [ ] Proxy and Reflect
-  - tasks:
-  - [ ] Error on reading non-existent property
-  - [ ] Accessing array[-1]
-  - [ ] Observable
+-   [ ] Proxy and Reflect
 
-- [ ] Eval: run a code string
-  - tasks:
-  - [ ] Eval-calculator
+    -   tasks:
+    -   [ ] Error on reading non-existent property
+    -   [ ] Accessing array[-1]
+    -   [ ] Observable
 
-- [ ] Currying
+-   [ ] Eval: run a code string
 
-- [ ] Reference Type
-  - tasks:
-  - [ ] Syntax check
-  - [ ] Explain the value of "this"
+    -   tasks:
+    -   [ ] Eval-calculator
 
-- [ ] BigInt
+-   [ ] Currying
 
-- [ ] Unicode, String internals
+-   [ ] Reference Type
+
+    -   tasks:
+    -   [ ] Syntax check
+    -   [ ] Explain the value of "this"
+
+-   [ ] BigInt
+
+-   [ ] Unicode, String internals
 
 ## Browser: Document, Events, Interfaces
 
 ### Document
 
-- [ ] Browser environment, specs
+-   [ ] Browser environment, specs
 
-- [ ] DOM tree
+-   [ ] DOM tree
 
-- [ ] Walking the DOM
-  - tasks:
-  - [ ] DOM children
-  - [ ] The sibling question
-  - [ ] Select all diagonal cells
+-   [ ] Walking the DOM
 
-- [ ] Searching: getElement*, querySelector*
-  - tasks:
-  - [ ] Search for elements
+    -   tasks:
+    -   [ ] DOM children
+    -   [ ] The sibling question
+    -   [ ] Select all diagonal cells
 
-- [ ] Node properties: type, tag and contents
-  - tasks:
-  - [ ] Count descendants
-  - [ ] What's in the nodeType?
-  - [ ] Tag in comment
-  - [ ] Where's the "document" in the hierarchy?
+-   [ ] Searching: getElement*, querySelector*
 
-- [ ] Attributes and properties
-  - tasks:
-  - [ ] Get the attribute
-  - [ ] Make external links orange
+    -   tasks:
+    -   [ ] Search for elements
 
-- [ ] Modifying the document
-  - tasks:
-  - [ ] createTextNode vs innerHTML vs textContent
-  - [ ] Clear the element
-  - [ ] Why does "aaa" remain?
-  - [ ] Create a list
-  - [ ] Create a tree from the object
-  - [ ] Show descendants in a tree
-  - [ ] Create a calendar
-  - [ ] Colored clock with setInterval
-  - [ ] Insert the HTML in the list
-  - [ ] Sort the table
+-   [ ] Node properties: type, tag and contents
 
-- [ ] Styles and classes
-  - tasks:
-  - [ ] Create a notification
+    -   tasks:
+    -   [ ] Count descendants
+    -   [ ] What's in the nodeType?
+    -   [ ] Tag in comment
+    -   [ ] Where's the "document" in the hierarchy?
 
-- [ ] Element size and scrolling
-  - tasks:
-  - [ ] What's the scroll from the bottom?
-  - [ ] What is the scrollbar width?
-  - [ ] Place the ball in the field center
-  - [ ] The difference: CSS width versus clientWidth
+-   [ ] Attributes and properties
 
-- [ ] Window sizes and scrolling
+    -   tasks:
+    -   [ ] Get the attribute
+    -   [ ] Make external links orange
 
-- [ ] Coordinates
-  - tasks:
-  - [ ] Find window coordinates of the field
-  - [ ] Show a note near the element
-  - [ ] Show a note near the element (absolute)
-  - [ ] Position the note inside (absolute)
+-   [ ] Modifying the document
+
+    -   tasks:
+    -   [ ] createTextNode vs innerHTML vs textContent
+    -   [ ] Clear the element
+    -   [ ] Why does "aaa" remain?
+    -   [ ] Create a list
+    -   [ ] Create a tree from the object
+    -   [ ] Show descendants in a tree
+    -   [ ] Create a calendar
+    -   [ ] Colored clock with setInterval
+    -   [ ] Insert the HTML in the list
+    -   [ ] Sort the table
+
+-   [ ] Styles and classes
+
+    -   tasks:
+    -   [ ] Create a notification
+
+-   [ ] Element size and scrolling
+
+    -   tasks:
+    -   [ ] What's the scroll from the bottom?
+    -   [ ] What is the scrollbar width?
+    -   [ ] Place the ball in the field center
+    -   [ ] The difference: CSS width versus clientWidth
+
+-   [ ] Window sizes and scrolling
+
+-   [ ] Coordinates
+    -   tasks:
+    -   [ ] Find window coordinates of the field
+    -   [ ] Show a note near the element
+    -   [ ] Show a note near the element (absolute)
+    -   [ ] Position the note inside (absolute)
 
 ### Introduction to Events
 
-- [ ] Introduction to browser events
-  - tasks:
-  - [ ] Hide on click
-  - [ ] Hide self
-  - [ ] Which handlers run?
-  - [ ] Move the ball across the field
-  - [ ] Create a sliding menu
-  - [ ] Add a closing button
-  - [ ] Carousel
+-   [ ] Introduction to browser events
 
-- [ ] Bubbling and capturing
+    -   tasks:
+    -   [ ] Hide on click
+    -   [ ] Hide self
+    -   [ ] Which handlers run?
+    -   [ ] Move the ball across the field
+    -   [ ] Create a sliding menu
+    -   [ ] Add a closing button
+    -   [ ] Carousel
 
-- [ ] Event delegation
-  - tasks:
-  - [ ] Hide messages with delegation
-  - [ ] Tree menu
-  - [ ] Sortable table
-  - [ ] Tooltip behavior
+-   [ ] Bubbling and capturing
 
-- [ ] Browser default actions
-  - tasks:
-  - [ ] Why "return false" doesn't work?
-  - [ ] Catch links in the element
-  - [ ] Image gallery
+-   [ ] Event delegation
 
-- [ ] Dispatching custom events
+    -   tasks:
+    -   [ ] Hide messages with delegation
+    -   [ ] Tree menu
+    -   [ ] Sortable table
+    -   [ ] Tooltip behavior
+
+-   [ ] Browser default actions
+
+    -   tasks:
+    -   [ ] Why "return false" doesn't work?
+    -   [ ] Catch links in the element
+    -   [ ] Image gallery
+
+-   [ ] Dispatching custom events
 
 ### UI Events
 
-- [ ] Mouse events
-  - tasks:
-  - [ ] Selectable list
+-   [ ] Mouse events
 
-- [ ] Moving the mouse: mouseover/out, mouseenter/leave
-  - tasks:
-  - [ ] Improved tooltip behavior
-  - [ ] "Smart" tooltip
+    -   tasks:
+    -   [ ] Selectable list
 
-- [ ] Drag'n'Drop with mouse events
-  - tasks:
-  - [ ] Slider
-  - [ ] Drag superheroes around the field
+-   [ ] Moving the mouse: mouseover/out, mouseenter/leave
 
-- [ ] Pointer events
+    -   tasks:
+    -   [ ] Improved tooltip behavior
+    -   [ ] "Smart" tooltip
 
-- [ ] Keyboard: keydown and keyup
-  - tasks:
-  - [ ] Extended hotkeys
+-   [ ] Drag'n'Drop with mouse events
 
-- [ ] Scrolling
-  - tasks:
-  - [ ] Endless page
-  - [ ] Up/down button
-  - [ ] Load visible images
+    -   tasks:
+    -   [ ] Slider
+    -   [ ] Drag superheroes around the field
+
+-   [ ] Pointer events
+
+-   [ ] Keyboard: keydown and keyup
+
+    -   tasks:
+    -   [ ] Extended hotkeys
+
+-   [ ] Scrolling
+    -   tasks:
+    -   [ ] Endless page
+    -   [ ] Up/down button
+    -   [ ] Load visible images
 
 ### Forms, controls
 
-- [ ] Form properties and methods
-  - tasks:
-  - [ ] Add an option to select
+-   [ ] Form properties and methods
 
-- [ ] Focusing: focus/blur
-  - tasks:
-  - [ ] Editable div
-  - [ ] Edit TD on click
-  - [ ] Keyboard-driven mouse
+    -   tasks:
+    -   [ ] Add an option to select
 
-- [ ] Events: change, input, cut, copy, paste
-  - tasks:
-  - [ ] Deposit calculator
+-   [ ] Focusing: focus/blur
 
-- [ ] Forms: event and method submit
-  - tasks:
-  - [ ] Modal form
+    -   tasks:
+    -   [ ] Editable div
+    -   [ ] Edit TD on click
+    -   [ ] Keyboard-driven mouse
+
+-   [ ] Events: change, input, cut, copy, paste
+
+    -   tasks:
+    -   [ ] Deposit calculator
+
+-   [ ] Forms: event and method submit
+    -   tasks:
+    -   [ ] Modal form
 
 ### Document and resource loading
 
-- [ ] Page: DOMContentLoaded, load, beforeunload, unload
+-   [ ] Page: DOMContentLoaded, load, beforeunload, unload
 
-- [ ] Scripts: async, defer
+-   [ ] Scripts: async, defer
 
-- [ ] Resource loading: onload and onerror
-  - tasks:
-  - [ ] Load images with a callback
+-   [ ] Resource loading: onload and onerror
+    -   tasks:
+    -   [ ] Load images with a callback
 
 ### Miscellaneous
 
-- [ ] Mutation observer
+-   [ ] Mutation observer
 
-- [ ] Selection and Range
+-   [ ] Selection and Range
 
-- [ ] Event loop: microtasks and macrotasks
-  - tasks:
-  - [ ] What will be the output of this code?
+-   [ ] Event loop: microtasks and macrotasks
+    -   tasks:
+    -   [ ] What will be the output of this code?
 
 ## Additional articles
 
 ### Frames and windows
 
-- [ ] Popups and window methods
+-   [ ] Popups and window methods
 
-- [ ] Cross-window communication
+-   [ ] Cross-window communication
 
-- [ ] The clickjacking attack
+-   [ ] The clickjacking attack
 
 ### Binary data, files
 
-- [ ] ArrayBuffer, binary arrays
-  - tasks:
-  - [ ] Concatenate typed arrays
+-   [ ] ArrayBuffer, binary arrays
 
-- [ ] TextDecoder and TextEncoder
+    -   tasks:
+    -   [ ] Concatenate typed arrays
 
-- [ ] Blob
+-   [ ] TextDecoder and TextEncoder
 
-- [ ] File and FileReader
+-   [ ] Blob
+
+-   [ ] File and FileReader
 
 ### Network requests
 
-- [ ] Fetch
-  - tasks:
-  - [ ] Fetch users from GitHub
+-   [ ] Fetch
 
-- [ ] FormData
+    -   tasks:
+    -   [ ] Fetch users from GitHub
 
-- [ ] Fetch: Download progress
+-   [ ] FormData
 
-- [ ] Fetch: Abort
+-   [ ] Fetch: Download progress
 
-- [ ] Fetch: Cross-Origin Requests
-  - tasks:
-  - [ ] Why do we need Origin?
+-   [ ] Fetch: Abort
 
-- [ ] Fetch API
+-   [ ] Fetch: Cross-Origin Requests
 
-- [ ] URL objects
+    -   tasks:
+    -   [ ] Why do we need Origin?
 
-- [ ] XMLHttpRequest
+-   [ ] Fetch API
 
-- [ ] Resumable file upload
+-   [ ] URL objects
 
-- [ ] Long polling
+-   [ ] XMLHttpRequest
 
-- [ ] WebSocket
+-   [ ] Resumable file upload
 
-- [ ] Server Sent Events
+-   [ ] Long polling
+
+-   [ ] WebSocket
+
+-   [ ] Server Sent Events
 
 ### Storing data in the browser
 
-- [ ] Cookies, document.cookie
+-   [ ] Cookies, document.cookie
 
-- [ ] LocalStorage, sessionStorage
-  - tasks:
-  - [ ] Autosave a form field
+-   [ ] LocalStorage, sessionStorage
 
-- [ ] IndexedDB
+    -   tasks:
+    -   [ ] Autosave a form field
+
+-   [ ] IndexedDB
 
 ### Animation
 
-- [ ] Bezier curve
+-   [ ] Bezier curve
 
-- [ ] CSS-animations
-  - tasks:
-  - [ ] Animate a plane (CSS)
-  - [ ] Animate the flying plane (CSS)
-  - [ ] Animated circle
-  - [ ] Animated circle with callback
+-   [ ] CSS-animations
 
-- [ ] JavaScript animations
-  - tasks:
-  - [ ] Animate the bouncing ball
-  - [ ] Animate the ball bouncing to the right
+    -   tasks:
+    -   [ ] Animate a plane (CSS)
+    -   [ ] Animate the flying plane (CSS)
+    -   [ ] Animated circle
+    -   [ ] Animated circle with callback
+
+-   [ ] JavaScript animations
+    -   tasks:
+    -   [ ] Animate the bouncing ball
+    -   [ ] Animate the ball bouncing to the right
 
 ### Web components
 
-- [ ] From the orbital height
+-   [ ] From the orbital height
 
-- [ ] Custom elements
-  - tasks:
-  - [ ] Live timer element
+-   [ ] Custom elements
 
-- [ ] Shadow DOM
+    -   tasks:
+    -   [ ] Live timer element
 
-- [ ] Template element
+-   [ ] Shadow DOM
 
-- [ ] Shadow DOM slots, composition
+-   [ ] Template element
 
-- [ ] Shadow DOM styling
+-   [ ] Shadow DOM slots, composition
 
-- [ ] Shadow DOM and events
+-   [ ] Shadow DOM styling
+
+-   [ ] Shadow DOM and events
 
 ### Regular expressions
 
-- [ ] Patterns and flags
+-   [ ] Patterns and flags
 
-- [ ] Character classes
+-   [ ] Character classes
 
-- [ ] Unicode: flag "u" and class \p{...}
+-   [ ] Unicode: flag "u" and class \p{...}
 
-- [ ] Anchors: string start ^ and end $
-  - tasks:
-  - [ ] Regexp ^$
+-   [ ] Anchors: string start ^ and end $
 
-- [ ] Multiline mode of anchors ^ $, flag "m"
+    -   tasks:
+    -   [ ] Regexp ^$
 
-- [ ] Word boundary: \b
-  - tasks:
-  - [ ] Find the time
+-   [ ] Multiline mode of anchors ^ $, flag "m"
 
-- [ ] Escaping, special characters
+-   [ ] Word boundary: \b
 
-- [ ] Sets and ranges [...]
-  - tasks:
-  - [ ] Java[^script]
-  - [ ] Find the time as hh:mm or hh-mm
+    -   tasks:
+    -   [ ] Find the time
 
-- [ ] Quantifiers +, *, ? and {n}
-  - tasks:
-  - [ ] How to find an ellipsis "..." ?
-  - [ ] Regexp for HTML colors
+-   [ ] Escaping, special characters
 
-- [ ] Greedy and lazy quantifiers
-  - tasks:
-  - [ ] A match for /d+? d+?/
-  - [ ] Find HTML comments
-  - [ ] Find HTML tags
+-   [ ] Sets and ranges [...]
 
-- [ ] Capturing groups
-  - tasks:
-  - [ ] Check MAC-address
-  - [ ] Find color in the format #abc or #abcdef
-  - [ ] Find all numbers
-  - [ ] Parse an expression
+    -   tasks:
+    -   [ ] Java[^script]
+    -   [ ] Find the time as hh:mm or hh-mm
 
-- [ ] Backreferences in pattern: \N and \k&lt;name&gt;
+-   [ ] Quantifiers +, \*, ? and {n}
 
-- [ ] Alternation (OR) |
-  - tasks:
-  - [ ] Find programming languages
-  - [ ] Find bbtag pairs
-  - [ ] Find quoted strings
-  - [ ] Find the full tag
+    -   tasks:
+    -   [ ] How to find an ellipsis "..." ?
+    -   [ ] Regexp for HTML colors
 
-- [ ] Lookahead and lookbehind
-  - tasks:
-  - [ ] Find non-negative integers
-  - [ ] Insert After Head
+-   [ ] Greedy and lazy quantifiers
 
-- [ ] Catastrophic backtracking
+    -   tasks:
+    -   [ ] A match for /d+? d+?/
+    -   [ ] Find HTML comments
+    -   [ ] Find HTML tags
 
-- [ ] Sticky flag "y", searching at position
+-   [ ] Capturing groups
 
-- [ ] Methods of RegExp and String
+    -   tasks:
+    -   [ ] Check MAC-address
+    -   [ ] Find color in the format #abc or #abcdef
+    -   [ ] Find all numbers
+    -   [ ] Parse an expression
+
+-   [ ] Backreferences in pattern: \N and \k&lt;name&gt;
+
+-   [ ] Alternation (OR) |
+
+    -   tasks:
+    -   [ ] Find programming languages
+    -   [ ] Find bbtag pairs
+    -   [ ] Find quoted strings
+    -   [ ] Find the full tag
+
+-   [ ] Lookahead and lookbehind
+
+    -   tasks:
+    -   [ ] Find non-negative integers
+    -   [ ] Insert After Head
+
+-   [ ] Catastrophic backtracking
+
+-   [ ] Sticky flag "y", searching at position
+
+-   [ ] Methods of RegExp and String
