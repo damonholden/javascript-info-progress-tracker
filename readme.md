@@ -258,7 +258,7 @@
     -   [x] How many seconds till tomorrow?
     -   [x] Format the relative date
 
--   [x] JSON methods, toJSON
+-   [] JSON methods, toJSON
     -   tasks:
     -   [ ] Turn the object into JSON and back
     -   [ ] Exclude backreferences
