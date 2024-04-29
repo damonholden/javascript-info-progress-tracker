@@ -25,3 +25,16 @@
 
 -   when `JSON.stringify` is called, it calls the passed in values `toJSON` method.
 -   just like `toString`, any object can have its own custom `toJSON` method that customises the output of `JSON.stringify`.
+
+## JSON.parse
+
+-   `JSON.parse(str[, reviver])`:
+    -   `str` - the JSON-string to be decoded
+    -   `reviver` - an optional function that will be called for each key/value pair for transforming the value
+-   used for decoding JSON-strings
+
+## JSON standard
+
+-   the rule-set for JSON can be found here - https://www.json.org/json-en.html.
+-   There are other formats that expand on JSON to add extra functionality but they are standalone libraries.
+-   JSON is strict to allow for simplicity and easy parsing
