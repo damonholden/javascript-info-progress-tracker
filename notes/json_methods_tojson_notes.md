@@ -30,7 +30,7 @@
 
 -   `JSON.parse(str[, reviver])`:
     -   `str` - the JSON-string to be decoded
-    -   `reviver` - an optional function that will be called for each key/value pair for transforming the value
+    -   `reviver` - an optional function that will be called for each key/value pair for transforming the value. This can be useful when you want to turn some parts of the parsed JSON to more complex data types (like a `Date` object for a parsed date string).
 -   used for decoding JSON-strings
 
 ## JSON standard
