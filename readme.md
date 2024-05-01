@@ -260,7 +260,7 @@
 
 -   [x] JSON methods, toJSON
     -   tasks:
-    -   [ ] Turn the object into JSON and back
+    -   [x] Turn the object into JSON and back
     -   [ ] Exclude backreferences
 
 ### Advanced working with functions
