@@ -261,7 +261,7 @@
 -   [x] JSON methods, toJSON
     -   tasks:
     -   [x] Turn the object into JSON and back
-    -   [ ] Exclude backreferences
+    -   [x] Exclude backreferences
 
 ### Advanced working with functions
 
