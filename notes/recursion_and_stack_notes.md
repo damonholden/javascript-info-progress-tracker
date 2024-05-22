@@ -17,3 +17,7 @@
     2.  the execution context is stored in a data structure called the execution context stack.
     3.  the nested called function executes.
     4.  after the nested function's execution ends, the execution context that was stored in the execution context stack is retrieved and the original function resumes execution from where it was paused.
+
+-   recursion depth can be referenced by the amount of context structures in the context stack.
+-   recursion is less memory efficient than loop based algorithms because recursion requires context to be stored in memory for each nested function.
+-   while recursion is generally inefficient, they can often be more readable, which may be more valuable.
