@@ -21,3 +21,42 @@
 -   recursion depth can be referenced by the amount of context structures in the context stack.
 -   recursion is less memory efficient than loop based algorithms because recursion requires context to be stored in memory for each nested function.
 -   while recursion is generally inefficient, they can often be more readable, which may be more valuable.
+-   any recursion can be written sas a loop
+
+## Recursive traversals
+
+-   recursive traversal is using recursion to traverse over a complex object
+-   using loops to traverse complex objects can become ugly and unreadable, recursion can often be much more simpler:
+
+    ```javascript
+    let company = {
+        sales: [
+            { name: "John", salary: 1000 },
+            { name: "Alice", salary: 1600 },
+        ],
+        development: {
+            sites: [
+                { name: "Peter", salary: 2000 },
+                { name: "Alex", salary: 1800 },
+            ],
+            internals: [{ name: "Jack", salary: 1300 }],
+        },
+    };
+
+    function sumSalaries(department) {
+        if (Array.isArray(department)) {
+            return department.reduce(
+                (prev, current) => prev + current.salary,
+                0
+            );
+        } else {
+            let sum = 0;
+            for (let subdep of Object.values(department)) {
+                sum += sumSalaries(subdep);
+            }
+            return sum;
+        }
+    }
+
+    alert(sumSalaries(company));
+    ```
