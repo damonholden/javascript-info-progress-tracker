@@ -60,3 +60,7 @@
 
     alert(sumSalaries(company));
     ```
+## Recursive Structures
+
+- a recursive data structure is one that replicates itself in parts.
+- a good example of this is a HTML document which will contain HTML tags that either contain HTML components, text, or other HTML tags - thus creating a recursive pattern in the data structure.
