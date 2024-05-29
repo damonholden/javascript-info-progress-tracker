@@ -265,7 +265,7 @@
 
 ### Advanced working with functions
 
--   [ ] Recursion and stack
+-   [x] Recursion and stack
 
     -   tasks:
     -   [ ] Sum all numbers till the given one

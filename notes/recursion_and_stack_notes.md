@@ -60,7 +60,58 @@
 
     alert(sumSalaries(company));
     ```
+
 ## Recursive Structures
 
-- a recursive data structure is one that replicates itself in parts.
-- a good example of this is a HTML document which will contain HTML tags that either contain HTML components, text, or other HTML tags - thus creating a recursive pattern in the data structure.
+-   a recursive data structure is one that replicates itself in parts.
+-   a good example of this is a HTML document which will contain HTML tags that either contain HTML components, text, or other HTML tags - thus creating a recursive pattern in the data structure.
+
+### linked list
+
+-   An Array can be used for a list but removing elements from inside the array can be costly as all the other elements need to be reordered.
+-   A linked list can be used for fast insertion and deletion.
+-   in javascript, a linked list can be defined as a recursive object with two properties - value and next:
+
+    -   value is the actual value held in that position of the list.
+    -   next is the link to the next value in the list.
+
+-   An example of a linked list in javascript could be the following:
+
+    ```javascript
+    let list = {
+        value: 1,
+        next: {
+            value: 2,
+            next: {
+                value: 3,
+                next: {
+                    value: 4,
+                    next: null,
+                },
+            },
+        },
+    };
+    ```
+
+-   linked list elements in javascript can be easily inserted and removed by resignment of the next property:
+
+    -   for inserting a value:
+
+        ```javascript
+        let list = { value: 1 };
+
+        list.next = { value: 2 };
+        list.next.next = { value: 3 };
+        list.next.next.next = { value: 4 };
+
+        // prepend the new value to the list
+        list = { value: "new item", next: list };
+        ```
+
+    -   for removing a value:
+
+        ```javascript
+        list.next = list.next.next;
+        ```
+
+-   removing values from linked lists will have their values removed from memory through the garbage collection process.
