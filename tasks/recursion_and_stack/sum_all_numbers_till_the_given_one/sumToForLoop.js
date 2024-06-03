@@ -1,4 +1,4 @@
-function sumTo(n) {
+function sumToForLoop(n) {
     let sum = 0;
 
     for (let i = 1; i <= n; i++) {
