@@ -1,6 +1,6 @@
 import { describe, test } from "node:test";
 import assert from "node:assert/strict";
-import { sumToRecursion } from "./sumToRecursion";
+import { sumToRecursion } from "./sumToRecursion.js";
 
 describe("sumToRecursion", () => {
     test("returns 1 for 1", () => {

@@ -3,5 +3,5 @@ export function sumToRecursion(n) {
         return 1;
     }
 
-    return sumToRecursion(n - 1);
+    return n + sumToRecursion(n - 1);
 }
