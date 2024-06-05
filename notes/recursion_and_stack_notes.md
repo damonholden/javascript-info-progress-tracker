@@ -115,3 +115,7 @@
         ```
 
 -   removing values from linked lists will have their values removed from memory through the garbage collection process.
+
+### Tail call optimisation
+
+-   There exists a concept in some JavaScript engines called "tail call" optimisation - if a recursive call is the last line in a function, with no other calculations in the expression outside of the nested-function call, then the outer function does not need to resume execution, so the engine does not need to remember its execution context.
