@@ -268,7 +268,7 @@
 -   [x] Recursion and stack
 
     -   tasks:
-    -   [ ] Sum all numbers till the given one
+    -   [x] Sum all numbers till the given one
     -   [ ] Calculate factorial
     -   [ ] Fibonacci numbers
     -   [ ] Output a single-linked list
