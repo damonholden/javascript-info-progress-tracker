@@ -22,4 +22,8 @@ describe("sumToForLoop", () => {
     test("returns 15 for 5", () => {
         assert.strictEqual(sumToForLoop(5), 15);
     });
+
+    test("return 5_000_050_000 for 100_000", () => {
+        assert.strictEqual(sumToForLoop(100_000), 5_000_050_000);
+    });
 });

@@ -22,4 +22,10 @@ describe("sumToRecursion", () => {
     test("returns 15 for 5", () => {
         assert.strictEqual(sumToRecursion(5), 15);
     });
+    
+    test("should throw a call stack size exceeded error if called with a number greater than 100_000", () => {
+        assert.throws(() => {
+            sumToRecursion(100_000);
+        }, RangeError);
+    });
 });
