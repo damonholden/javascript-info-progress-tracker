@@ -269,7 +269,7 @@
 
     -   tasks:
     -   [x] Sum all numbers till the given one
-    -   [ ] Calculate factorial
+    -   [x] Calculate factorial
     -   [ ] Fibonacci numbers
     -   [ ] Output a single-linked list
     -   [ ] Output a single-linked list in the reverse order
