@@ -24,6 +24,8 @@ describe("fib", () => {
     test("returns 13 for 7", () => {
         assert.strictEqual(fib(7), 13)
     })
+
+    // This test will take a long time to complete as the recursion creates too many calls to duplicate fibonacci number calculations.
     test("returns 5_527_939_700_884_757 for 77", () => {
         assert.strictEqual(fib(77), 5_527_939_700_884_757)
     })
