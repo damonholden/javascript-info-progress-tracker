@@ -271,7 +271,7 @@
     -   [x] Sum all numbers till the given one
     -   [x] Calculate factorial
     -   [x] Fibonacci numbers
-    -   [ ] Output a single-linked list
+    -   [x] Output a single-linked list
     -   [ ] Output a single-linked list in the reverse order
 
 -   [ ] Rest parameters and spread syntax
