@@ -272,7 +272,7 @@
     -   [x] Calculate factorial
     -   [x] Fibonacci numbers
     -   [x] Output a single-linked list
-    -   [ ] Output a single-linked list in the reverse order
+    -   [x] Output a single-linked list in the reverse order
 
 -   [ ] Rest parameters and spread syntax
 
