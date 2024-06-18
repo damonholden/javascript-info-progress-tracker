@@ -3,7 +3,7 @@ import { describe, test } from "node:test";
 import assert from "node:assert/strict";
 
 describe("PrintListInReverseLoop", () => {
-    test("should log all the values in a linked list", (test) => {
+    test("should log all the values in a linked list in reverse", (test) => {
         const list = {
             value: 1,
             next: {
