@@ -12,6 +12,14 @@
 -   To account for any number of arguments in a function, a rest parameter can be used to capture all the exceeding arguments in an Array - `function someFunc(...params)`.
 -   the rest parameter can be used to capture all arguments into a function - like `function someFunc(...params)`, or just the arguments that go passed the amount of defined parameters - like `function someFunc(a, b, ...params)` (`...params` must be defined at the end of a parameter list, doing otherwise causes an error).
 
+## The `arguments` variable
+
+-   within a function, there exists an Array-like object - `arguments`, that contains all the arguments passed to a function accessible by index.
+-   `arguments` existed before rest parameters existed, so it shouldn't be used in modern code.
+-   while `arguments` is array-like and iterable, it is not an array, and doesn't support array methods, unlike rest parameters.
+-   unlike rest parameters, there is no way to capture only some of the passed arguments with `arguments`, it will always contain all the arguments.
+-   arrow functions (`() => {}`) do not have access t the `arguments` variable.
+
 ## Link
 
 -   https://javascript.info/rest-parameters-spread
