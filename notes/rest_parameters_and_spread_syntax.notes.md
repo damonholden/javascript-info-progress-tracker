@@ -20,6 +20,12 @@
 -   unlike rest parameters, there is no way to capture only some of the passed arguments with `arguments`, it will always contain all the arguments.
 -   arrow functions (`() => {}`) do not have access t the `arguments` variable.
 
+## Spread syntax
+
+- spread syntax has an identical syntax to resp parameters, but almost does the opposite - where rest parameters turn values (function parameters) into an array, the spread operator extracts the values from an array into another array like structure.
+- 
+
+
 ## Link
 
 -   https://javascript.info/rest-parameters-spread
