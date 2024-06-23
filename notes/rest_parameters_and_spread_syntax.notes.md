@@ -22,8 +22,17 @@
 
 ## Spread syntax
 
-- spread syntax has an identical syntax to resp parameters, but almost does the opposite - where rest parameters turn values (function parameters) into an array, the spread operator extracts the values from an array into another array like structure.
-- 
+- spread syntax has an identical syntax to rest parameters, but almost does the opposite - where rest parameters turn values (function parameters) into an array, the spread operator extracts the values from an iterable to be used for some other data structure.
+- spread syntax can be used in multiple contexts:
+    - for function arguments - `func(...args)`
+    - for array spreading - `[...arr]` (a useful way do shallow copy an array)
+    - for object spreading - `{...obj}` (a useful way do shallow copy an object)
+- the spread syntax can also be used to spread multiple iterables - `func(...args, ...moreArgs)`
+    - this is also useful for merging arrays - `[...vals, ...moreVals]`
+- spread syntax can be used alongside other values as well - `[...vals, 1, 2, 3]`
+- typically, spread syntax is used with arrays, but any iterable will do:
+    - strings - to get each character.
+    - while this is useful for turning any iterable into an array by spreading an iterable into an array literal, `Array.from()` is likely the better option for this use case.
 
 
 ## Link
