@@ -274,7 +274,7 @@
     -   [x] Output a single-linked list
     -   [x] Output a single-linked list in the reverse order
 
--   [ ] Rest parameters and spread syntax
+-   [x] Rest parameters and spread syntax
 
 -   [ ] Variable scope, closure
 
