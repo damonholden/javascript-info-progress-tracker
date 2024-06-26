@@ -40,3 +40,10 @@
     ```
 
 -   in the above case even though `let i` is visibly outside of the code block, anything within the for loops brackets are considered part of the loop.
+
+## Nested functions
+
+-   A function is called "nested" when it is defined inside another function.
+-   a nested function is redefined every the outer function executes.
+-   a nested function can also be returned from the outer function, which can then be used elsewhere. The returned and nested function will still have access to same outer variables from where it was defined.
+-   relying on this functionality of JavaScript to solve problems can become complex and there are generally much simpler ways to achieve the same thing.
