@@ -64,3 +64,10 @@
 -   when a script starts, the Lexical Environment object has all the properties defined that represent variable declarations in the file. In this state, the variable is in a special state called "Uninitialized".
 -   when a let or const declaration is appears, the Lexical Environment gives it the value of `undefined` if declared without an assignment, this now allows it to be referenced by further code without an error.
 -   whenever a variable is assigned a value, that value is then reflected in the Lexical Environments associated property.
+
+### Function Declarations
+
+-   in JavaScript, functions are values which are stored in variables (the function name)
+-   a unique behaviour of functions in JavaScript is that a function declaration (`function adder() {}`) is instantly initialised when a Lexical Environment is created.
+-   This is useful because it allows code to become more readable and easier to understand. More high-level functions can be defined at the top of a file and other utility functions can be defined later on without obscuring the intent of the code.
+-   This initialisation behaviour of functions is unique to function declarations - `function func() {}`, function expressions - `let func = () => {}` do not behave like this.
