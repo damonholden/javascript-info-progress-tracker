@@ -71,3 +71,11 @@
 -   a unique behaviour of functions in JavaScript is that a function declaration (`function adder() {}`) is instantly initialised when a Lexical Environment is created.
 -   This is useful because it allows code to become more readable and easier to understand. More high-level functions can be defined at the top of a file and other utility functions can be defined later on without obscuring the intent of the code.
 -   This initialisation behaviour of functions is unique to function declarations - `function func() {}`, function expressions - `let func = () => {}` do not behave like this.
+
+### Inner and Outer Lexical Environment
+
+-   a Lexical Environment is created when a function runs in order to store all the local variables defined in the function and the parameters passed to the function.
+-   a functions lexical environment will also hold a reference to the outer Lexical Environment
+-   the outer Lexical Environment could be an outer function's Lexical Environment or the files
+-   when a variable is accessed in code, the Lexical Environment tree is searched to find that variable, which starts from the current Lexical Environment and traverses each of the outer environments until a reference matches.
+-   in non-strict mode, if a variable isn't found, an assignment to a non-existing variable results in a new global variable. In strict mode, this is an error.
