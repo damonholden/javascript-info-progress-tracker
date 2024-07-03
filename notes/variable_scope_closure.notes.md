@@ -79,3 +79,15 @@
 -   the outer Lexical Environment could be an outer function's Lexical Environment or the files
 -   when a variable is accessed in code, the Lexical Environment tree is searched to find that variable, which starts from the current Lexical Environment and traverses each of the outer environments until a reference matches.
 -   in non-strict mode, if a variable isn't found, an assignment to a non-existing variable results in a new global variable. In strict mode, this is an error.
+
+### returning a function
+
+-   When a function is created, an `Environment` property is stored on it that keeps reference to the Lexical Environment where it was created.
+-   The `Environment` property is set once and forever at function creation time.
+-   When a call is made to a function, it's Lexical Environments `outer` properties is assigned the same reference as the function's `Environment` property.
+
+## Closure
+
+-   closure is a general programming term that refers to a function that can access its outer scope.
+-   In some languages, unlike JavaScript, closures are not possible.
+-   In JavaScript, almost all functions are closures, the only exception to this is defining a function using the `new Function()` syntax.
