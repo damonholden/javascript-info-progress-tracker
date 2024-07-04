@@ -91,3 +91,8 @@
 -   closure is a general programming term that refers to a function that can access its outer scope.
 -   In some languages, unlike JavaScript, closures are not possible.
 -   In JavaScript, almost all functions are closures, the only exception to this is defining a function using the `new Function()` syntax.
+
+## Garbage collection
+
+- Normally, a lexical environment is removed from memory after a function call finishes, because that lexical environment is no longer referenced and can be garbage collected. However, if a function is defined within that function and it is still accessible, then it has the `Environment` property which references the lexical environment.
+- If a function is called that returns a function and that outer function is called three times and stored each time, then there would be three separate lexical environments held in memory.
