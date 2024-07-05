@@ -96,3 +96,23 @@
 
 - Normally, a lexical environment is removed from memory after a function call finishes, because that lexical environment is no longer referenced and can be garbage collected. However, if a function is defined within that function and it is still accessible, then it has the `Environment` property which references the lexical environment.
 - If a function is called that returns a function and that outer function is called three times and stored each time, then there would be three separate lexical environments held in memory.
+
+### Real-life optimizations
+
+- In theory, while a function is alive, all outer variables are are retained in memory. However, in practice, JavaScript engines try to optimise that by analysing variable usage in the code. The following code will result in an error in chromium browsers because value is not referenced anywhere in the code other than the declaration, so it is automatically unallocated.
+
+```JavaScript
+function f() {
+  let value = Math.random();
+
+  function g() {
+    debugger; // in console: type alert(value); No such variable!
+  }
+
+  return g;
+}
+
+let g = f();
+g();
+```
+
