@@ -279,7 +279,7 @@
 -   [x] Variable scope, closure
 
     -   tasks:
-    -   [ ] Does a function pickup latest changes?
+    -   [x] Does a function pickup latest changes?
     -   [ ] Which variables are available?
     -   [ ] Are counters independent?
     -   [ ] Counter object
