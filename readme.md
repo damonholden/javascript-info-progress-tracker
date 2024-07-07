@@ -276,7 +276,7 @@
 
 -   [x] Rest parameters and spread syntax
 
--   [ ] Variable scope, closure
+-   [x] Variable scope, closure
 
     -   tasks:
     -   [ ] Does a function pickup latest changes?
