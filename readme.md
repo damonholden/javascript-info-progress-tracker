@@ -280,7 +280,7 @@
 
     -   tasks:
     -   [x] Does a function pickup latest changes?
-    -   [ ] Which variables are available?
+    -   [x] Which variables are available?
     -   [ ] Are counters independent?
     -   [ ] Counter object
     -   [ ] Function in if
