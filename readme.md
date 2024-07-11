@@ -281,7 +281,7 @@
     -   tasks:
     -   [x] Does a function pickup latest changes?
     -   [x] Which variables are available?
-    -   [ ] Are counters independent?
+    -   [x] Are counters independent?
     -   [ ] Counter object
     -   [ ] Function in if
     -   [ ] Sum with closures
