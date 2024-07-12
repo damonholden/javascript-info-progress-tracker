@@ -282,7 +282,7 @@
     -   [x] Does a function pickup latest changes?
     -   [x] Which variables are available?
     -   [x] Are counters independent?
-    -   [ ] Counter object
+    -   [x] Counter object
     -   [ ] Function in if
     -   [ ] Sum with closures
     -   [ ] Is variable visible?
