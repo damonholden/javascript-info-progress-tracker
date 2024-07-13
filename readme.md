@@ -283,7 +283,7 @@
     -   [x] Which variables are available?
     -   [x] Are counters independent?
     -   [x] Counter object
-    -   [ ] Function in if
+    -   [x] Function in if
     -   [ ] Sum with closures
     -   [ ] Is variable visible?
     -   [ ] Filter through function
