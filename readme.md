@@ -284,7 +284,7 @@
     -   [x] Are counters independent?
     -   [x] Counter object
     -   [x] Function in if
-    -   [ ] Sum with closures
+    -   [x] Sum with closures
     -   [ ] Is variable visible?
     -   [ ] Filter through function
     -   [ ] Sort by field
