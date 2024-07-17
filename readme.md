@@ -285,7 +285,7 @@
     -   [x] Counter object
     -   [x] Function in if
     -   [x] Sum with closures
-    -   [ ] Is variable visible?
+    -   [x] Is variable visible?
     -   [ ] Filter through function
     -   [ ] Sort by field
     -   [ ] Army of functions
