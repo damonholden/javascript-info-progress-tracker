@@ -286,7 +286,7 @@
     -   [x] Function in if
     -   [x] Sum with closures
     -   [x] Is variable visible?
-    -   [ ] Filter through function
+    -   [x] Filter through function
     -   [ ] Sort by field
     -   [ ] Army of functions
 
