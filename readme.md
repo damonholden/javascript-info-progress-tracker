@@ -288,7 +288,7 @@
     -   [x] Is variable visible?
     -   [x] Filter through function
     -   [x] Sort by field
-    -   [ ] Army of functions
+    -   [x] Army of functions
 
 -   [ ] The old "var"
 
