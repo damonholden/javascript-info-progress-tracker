@@ -287,7 +287,7 @@
     -   [x] Sum with closures
     -   [x] Is variable visible?
     -   [x] Filter through function
-    -   [ ] Sort by field
+    -   [x] Sort by field
     -   [ ] Army of functions
 
 -   [ ] The old "var"
