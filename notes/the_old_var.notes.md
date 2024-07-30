@@ -60,3 +60,12 @@ function sayHi() {
 sayHi();
 alert(phrase); // ReferenceError: phrase is not defined
 ```
+## `var` tolerates redeclarations
+
+when declaring a variable with `let` twice, the result is a syntax error:
+
+```JavaScript
+let user;
+let user; // SyntaxError: 'user' has already been declared
+```
+With `var`, a variable can be redeclared any number of times.
