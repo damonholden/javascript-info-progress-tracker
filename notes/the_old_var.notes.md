@@ -60,6 +60,7 @@ function sayHi() {
 sayHi();
 alert(phrase); // ReferenceError: phrase is not defined
 ```
+
 ## `var` tolerates redeclarations
 
 when declaring a variable with `let` twice, the result is a syntax error:
@@ -68,4 +69,84 @@ when declaring a variable with `let` twice, the result is a syntax error:
 let user;
 let user; // SyntaxError: 'user' has already been declared
 ```
+
 With `var`, a variable can be redeclared any number of times.
+
+## `var` variables can be declared below their use
+
+`var` declarations are processed when the function is executed (or when the script is executed for global variables). Wherever a `var` variable is defined, its definition is hoisted to the top of its scope.
+
+The following code:
+
+```JavaScript
+function sayHi() {
+  phrase = "Hello";
+
+  alert(phrase);
+
+  var phrase;
+}
+sayHi();
+```
+
+…Is technically the same as:
+
+```JavaScript
+function sayHi() {
+  var phrase;
+
+  phrase = "Hello";
+
+  alert(phrase);
+}
+sayHi();
+```
+
+…when the function is executed. As the `var` declaration for `phrase` is raised to the top of function scope.
+
+This rule also applies for the following code:
+
+```JavaScript
+function sayHi() {
+  phrase = "Hello"; // (*)
+
+  if (false) {
+    var phrase;
+  }
+
+  alert(phrase);
+}
+sayHi();
+```
+
+Even though the `var` declaration above is in an if loop that should never execute as `false` is falsy, a `var` declaration's scope is always either the function or global scope, and is therefore hoisted to the top of that scope.
+
+people can sometimes name this behaviour differently (raising, hoisting, etc.), but these all mean the same thing.
+
+An important thing to note is that **`var` declarations are hoisted, but assignments are not**. This is demonstrated in the following code:
+
+```JavaScript
+function sayHi() {
+  alert(phrase);
+
+  var phrase = "Hello";
+}
+
+sayHi();
+```
+
+In the above code, while the `var` declaration is hoisted to the top of function scope, the assignment of the value `"Hello"`that happens on the same line does not, and always happens in the place that it appears. The code effectively executes like the code block below:
+
+```JavaScript
+function sayHi() {
+  var phrase; // declaration works at the start...
+
+  alert(phrase); // undefined
+
+  phrase = "Hello"; // ...assignment - when the execution reaches it.
+}
+
+sayHi();
+```
+
+Because all `var` declarations are always hoisted to the top of their scope, they can always be referenced anywhere in the code, but they remain undefined until their assignments take place where they are written.
