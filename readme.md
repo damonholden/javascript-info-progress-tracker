@@ -290,7 +290,7 @@
     -   [x] Sort by field
     -   [x] Army of functions
 
--   [ ] The old "var"
+-   [x] The old "var"
 
 -   [ ] Global object
 

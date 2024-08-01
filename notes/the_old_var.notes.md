@@ -150,3 +150,58 @@ sayHi();
 ```
 
 Because all `var` declarations are always hoisted to the top of their scope, they can always be referenced anywhere in the code, but they remain undefined until their assignments take place where they are written.
+
+## IIFE (immediately invoked function expressions)
+
+Back when `var` was the only way to declare a variable, and there was no block-level scope, programmers invented a way to emulate the behavior - immediately invoked function expressions.
+
+IIFE's should not be usd today, but they exist in older scripts, so its worth knowing.
+
+An IIFE looks like this:
+
+```JavaScript
+(function() {
+
+  var message = "Hello";
+
+  alert(message); // Hello
+
+})();
+```
+
+The anonymous function above is defined and invoked immediately, so it behaves similarly to code executed in a block-level scope.
+
+The purpose of the parenthesis around the function expression is to let the interpreter know that the function definition is part of an expression and is therefore interpreted as a function expression. Without the parenthesis around the function, the interpreter will consider it a function definition and there would be two errors: 
+
+1. function declarations must have names. 
+2. function declarations cannot be immediately invoked.
+
+There are also other ways to create IIFE's:
+
+```JavaScript
+(function() {
+  alert("Parentheses around the function");
+})();
+
+(function() {
+  alert("Parentheses around the whole thing");
+}());
+
+!function() {
+  alert("Bitwise NOT operator starts the expression");
+}();
+
++function() {
+  alert("Unary plus starts the expression");
+}();
+```
+
+While you could have a discussion on which is the best implementation, you should never write code like this. This is a hack that was required due to the lack of functionality in the language that now exists.
+
+## Summary
+
+There are three main differences between `var` declarations and the newer `let`/`const` declarations:
+
+1. `var` declarations have no block scope, only function and global scope.
+2. `var` declarations are hoisted to the top of scope, but assignments are not.
+3. `var` declarations in global scope become properties of the global object. 
