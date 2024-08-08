@@ -16,3 +16,39 @@ alert("Hello")
 window.alert("Hello")
 ```
 
+In the browser, global functions and variables declared with `var` (not `let` or `const`)become methods and properties respectively on the global object:
+
+```JavaScript
+var globalVar = 5
+
+alert (window.globalVar)
+```
+
+For compatibility reasons, function declarations (not function expressions) also have the same effect:
+
+```JavaScript
+function globalFunc() {
+  alert("Hello")
+}
+
+window.globalFunc()
+```
+
+This behaviour does not exist in JavaScript modules.
+
+If it is appropriate that a value should be accessible globally, it should be explicitly assigned as a property to the global object:
+
+```JavaScript
+window.currentUser = {
+	name: "John"
+}
+
+// somewhere else in code
+alert(currentUser.name) // John
+
+// or, if we have a local variable with the name "currentUser"
+// get it from window explicitly (safe!)
+alert(window.currentUser.name) // John
+```
+
+Generally, it is discouraged to add to the globalObject (what is often called global scope pollution). It can be very tricky to debug a function that is utilising properties of the global object as the functions behaviour varies depending of the current state of the system (the values stored in the global object).
