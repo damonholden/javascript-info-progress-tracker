@@ -292,7 +292,7 @@
 
 -   [x] The old "var"
 
--   [ ] Global object
+-   [x] Global object
 
 -   [ ] Function object, NFE
 

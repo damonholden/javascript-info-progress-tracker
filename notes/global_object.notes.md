@@ -52,3 +52,21 @@ alert(window.currentUser.name) // John
 ```
 
 Generally, it is discouraged to add to the globalObject (what is often called global scope pollution). It can be very tricky to debug a function that is utilising properties of the global object as the functions behaviour varies depending of the current state of the system (the values stored in the global object).
+
+## Using for polyfills
+
+The global object can be used to test for the support of language features within a JavaScript environment:
+
+```JavaScript
+if (!window.Promise) {
+	alert("Your browser doesn't support Promises")
+}
+```
+
+In cases like this, it is possible to "polyfill" missing features by adding them to the global object:
+
+```JavaScript
+if (!window.Promise) {
+	window.Promise = CustomPromiseImplementation
+}
+```
