@@ -67,3 +67,37 @@ alert(arr[0].name) / ""
 ```
 
 ## The `length` property
+
+The `length` property of a function returns the number of parameters of that functio:
+
+```JavaScript
+function f(a, b) {}
+
+alert(f.length) // 2
+```
+
+Rest parameters are not counted in the `length` property of a function:
+
+```JavaScript
+function f(...args) {}
+
+alert(f.length) // 0
+```
+
+The length property is sometimes used for introspection (runtime type checking) in functions that operate on other functions:
+
+```JavaScript
+function f(bool, handler) {
+	if (handler.length > 0) {
+		handler(bool)
+		return
+	}	
+
+	if (bool) {
+		handler()
+	}
+}
+```
+
+What happens above is an example of introspection as well as polymorphism - providing a single interface for entities of different types (in this case, functions with a different `length`) property.
+
