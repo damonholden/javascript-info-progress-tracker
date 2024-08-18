@@ -101,3 +101,49 @@ function f(bool, handler) {
 
 What happens above is an example of introspection as well as polymorphism - providing a single interface for entities of different types (in this case, functions with a different `length`) property.
 
+## Custom properties
+
+Just like basic objects, function objects also allow the setting of custom properties:
+
+```JavaScript
+function sayHi() {
+	alert("Hi")
+
+	sayHi.counter++
+}
+
+sayHi.counter = 0
+
+sayHi() // Hi
+alert(sayHi.counter) // 1
+
+sayHi() // Hi
+alert(sayHi.counter) // 2
+```
+
+Its important to note that properties on a function do not become variables within the function. A variable defined in a function called `counter` and a property also called `counter` on that same function are two different entities.
+
+Function properties can replace the use of closures in some cases:
+
+```JavaScript
+function makeCounter() {
+	function counter() {
+		return counter.count++
+	}
+
+	counter.count = 0;
+
+	return counter
+}
+
+let counter = makeCounter();
+
+alert(counter()) // 0
+alert(counter()) // 1
+```
+Above, the `count` is a property stored on the function directly so no need to store a variable in outer scope to persist it.
+
+The main functional difference in storing values on the function itself is that it also allows external code to modify those function property values directly. When you store values in the parent scope (a maker function, for example), then no external code can access that value directly.
+
+## Named function expressions
+
