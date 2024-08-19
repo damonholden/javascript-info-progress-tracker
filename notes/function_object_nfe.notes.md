@@ -91,7 +91,7 @@ function f(bool, handler) {
 	if (handler.length > 0) {
 		handler(bool)
 		return
-	}	
+	}
 
 	if (bool) {
 		handler()
@@ -141,9 +141,87 @@ let counter = makeCounter();
 alert(counter()) // 0
 alert(counter()) // 1
 ```
+
 Above, the `count` is a property stored on the function directly so no need to store a variable in outer scope to persist it.
 
 The main functional difference in storing values on the function itself is that it also allows external code to modify those function property values directly. When you store values in the parent scope (a maker function, for example), then no external code can access that value directly.
 
 ## Named function expressions
 
+Named Function Expression (NFE) is a term for function expressions that have a name:
+
+```JavaScript
+const sayHi = function sayHiFunc() {
+	alert("Hi")
+}
+```
+
+It's important to note that even though the function above has a name in its definition, it is not a function declaration. Because the function is still within the context of an assignment expression, it is still considered a function expression.
+
+The example above still results in `sayHI()` being the syntax to invoke the function.
+
+There are two main implications of the Named Function Expression above:
+
+1. The function can reference itself internally.
+2. The function name is not visible outside of the function.
+
+An example of these two implications in action can be seen in the code below:
+
+```JavaScript
+const sayHi = function sayHiFunc(who) {
+	if (who) {
+		alert ("Hi, " + who)
+		return
+	}
+
+	sayHiFunc("stranger")
+}
+
+sayHi() // Hi, stranger
+
+
+sayHiFunc() // ReferenceError: sayHiFunc is not defined
+```
+
+You can still reference the function internally by using the variable name the function is assigned to. The problem is that if the variable gets reassigned - then there will be errors.
+
+```JavaScript
+let sayHi = function sayHiFunc(who) {
+	if (who) {
+		alert ("Hi, " + who)
+		return
+	}
+
+	sayHi("stranger")
+}
+
+const sayHiFunc = sayHi
+
+sayHiFunc() // Hi, stranger
+
+sayHi = null
+
+sayHiFunc() // ReferenceError: sayHi is not defined
+```
+
+This happens because `sayHi` is defined in the outer lexical environment, and is therefore used inside `sayHiFunc`. If the `sayHi` value changes before an execution of the `sayHiFunc` function, then it will invoke a different a different value if it invokes `sayHi`.
+
+When you give the function in a function expression a name, it is guaranteed to always be a reference to the current function when it is referenced from within the function. The specification makes this mandatory.
+
+### There's no such thing for function declarations
+
+The "internal name" feature described above is only available for function expressions. Function declarations have not such feature, so this may be a good reason to write a function as a Named Function Expression.
+
+## Summary
+
+Functions are objects.
+
+Functions have properties that can be useful:
+
+`name` - the function's name. The value is taken from the declaration, but there is a process to "guess" the value if a name can't be sourced from the declaration.
+
+`length` - the number of parameters in the function. Rest parameters are not included.
+
+If the function is a function expression, and still carries the name, then it is a Named Function Expression (NFE). The name in this case can be used for the function to reference itself safely.
+
+functions can have new properties added to them as well, which is a feature libraries make use of.

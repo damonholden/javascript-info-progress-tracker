@@ -294,7 +294,7 @@
 
 -   [x] Global object
 
--   [ ] Function object, NFE
+-   [x] Function object, NFE
 
     -   tasks:
     -   [ ] Set and decrease for counter
