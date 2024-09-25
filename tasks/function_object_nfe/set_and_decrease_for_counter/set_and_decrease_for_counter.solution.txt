@@ -1,0 +1,15 @@
+The solution uses count in the local variable, but addition methods are written right into the counter. They share the same outer lexical environment and also can access the current count.
+
+function makeCounter() {
+  let count = 0;
+
+  function counter() {
+    return count++;
+  }
+
+  counter.set = value => count = value;
+
+  counter.decrease = () => count--;
+
+  return counter;
+}

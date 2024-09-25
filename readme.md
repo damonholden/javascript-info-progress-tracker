@@ -297,7 +297,7 @@
 -   [x] Function object, NFE
 
     -   tasks:
-    -   [ ] Set and decrease for counter
+    -   [x] Set and decrease for counter
     -   [ ] Sum with an arbitrary amount of brackets
 
 -   [ ] The "new Function" syntax
