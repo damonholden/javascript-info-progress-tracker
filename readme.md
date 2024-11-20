@@ -300,7 +300,7 @@
     -   [x] Set and decrease for counter
     -   [x] Sum with an arbitrary amount of brackets
 
--   [ ] The "new Function" syntax
+-   [x] The "new Function" syntax
 
 -   [ ] Scheduling: setTimeout and setInterval
 
