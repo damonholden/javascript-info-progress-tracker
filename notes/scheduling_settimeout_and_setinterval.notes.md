@@ -17,11 +17,11 @@ let timer_id = setTimeout(func|code, [delay], [arg1], [arg2], ...)
 
 #### Parameters
 
-- `func|code` - a function or a string of code to execute. String representation of code (`code`) only exists for historical reasons, it's not recommended to use it in new code.
+-   `func|code` - a function or a string of code to execute. String representation of code (`code`) only exists for historical reasons, it's not recommended to use it in new code.
 
-- `delay` - the delay that has to elapse before executing the passed `func|code` in milliseconds. This is optional and the default if not passed is `0`.
+-   `delay` - the delay that has to elapse before executing the passed `func|code` in milliseconds. This is optional and the default if not passed is `0`.
 
-- `arg1, arg2, ...` - arguments that will be passed into the function argument when invoked after the delay. This is useful for calling functions without having to invoke them in some anonymous function passed as the `func` argument.
+-   `arg1, arg2, ...` - arguments that will be passed into the function argument when invoked after the delay. This is useful for calling functions without having to invoke them in some anonymous function passed as the `func` argument.
 
 ### Example:
 
@@ -35,3 +35,37 @@ function say_hi() {
 
 setTimeout(say_hi, 1000)
 ```
+
+The following is another example of `setTimeout` which calls an implementation of `say_hi` with arguments:
+
+```JavaScript
+function say_hi(phrase, who) {
+	alert(phrase + ', ' + who)
+}
+
+setTimeout (sayHi, 1000, "Hello", "John")
+```
+
+If the first argument of passed into `setTimeout` is a string, then JavaScript will parse it as a function:
+
+```JavaScript
+setTimeout("alert('Hello')", 1000);
+```
+
+passing function strings is considered bad practice. This functionality was introduced to facilitate anonymous functions back in a time when JavaScript had no such concept. In modern code, anonymous functions should be used instead:
+
+```JavaScript
+setTimeout(() => alert("Hello"), 1000)
+```
+
+### Pass a function definition, not an invocation
+
+It can be an easy mistake to add invocation brackets after passing a function declaration into `setTimeout`:
+
+```JavaScript
+setTimeout(sayHi(), 1000);
+```
+
+The above implementation won't behave as one might expect, as instead of passing a function definition to `setTimeout` (`sayHi`), the code instead executes `sayHi` when evaluating the first argument (`sayHi()`). This can actually be correct if the function invocation returns a function declaration - which would be used as the argument, bt often function invocations here are a mistake.
+
+### Cancelling with clearTimeout
