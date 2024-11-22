@@ -69,3 +69,14 @@ setTimeout(sayHi(), 1000);
 The above implementation won't behave as one might expect, as instead of passing a function definition to `setTimeout` (`sayHi`), the code instead executes `sayHi` when evaluating the first argument (`sayHi()`). This can actually be correct if the function invocation returns a function declaration - which would be used as the argument, bt often function invocations here are a mistake.
 
 ### Cancelling with clearTimeout
+
+When `setTimeout` is invoked, the function returns an identifier that can be used to cancel the execution, by passing it as the argument for `clearTimeout`:
+
+```JavaScript
+let timer_id = setTimeout(() => doSomething(), 1000)
+clearTimeout(timer_id)
+```
+
+The value of the identifier returned by `setTimeout` is an integer, except for Node - https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout#browser_compatibility, where setTimeout instead returns an object.
+
+clearing a timeout is useful for when the program knows that the execution of the function passed into `setTimeout` is invalid, or as a step in context tear-down, when the execution of the callback would be redundant.
