@@ -26,8 +26,8 @@
 
 ##### Tasks:
 
-    - [x] Show an alert
-    - [x] Show an alert with an external script
+- [x] Show an alert
+- [x] Show an alert with an external script
 
 #### Code structure
 
@@ -43,9 +43,9 @@
 
 ##### Tasks:
 
-    - [x] Working with variables
-    - [x] Giving the right name
-    - [x] Uppercase const?
+- [x] Working with variables
+- [x] Giving the right name
+- [x] Uppercase const?
 
 #### Data types
 
@@ -53,7 +53,7 @@
 
 ##### Tasks:
 
-    - [x] String quotes
+- [x] String quotes
 
 #### Interaction: alert, prompt, confirm
 
@@ -61,7 +61,7 @@
 
 ##### Tasks:
 
-    - [x] A simple page
+- [x] A simple page
 
 #### Type Conversions
 
@@ -73,10 +73,10 @@
 
 ##### Tasks:
 
-    - [x] The postfix and prefix forms
-    - [x] Assignment result
-    - [x] Type conversions
-    - [x] Fix the addition
+- [x] The postfix and prefix forms
+- [x] Assignment result
+- [x] Type conversions
+- [x] Fix the addition
 
 #### Comparisons
 
@@ -84,7 +84,7 @@
 
 ##### Tasks:
 
-    - [x] Comparisons
+- [x] Comparisons
 
 #### Conditional branching: if, '?'
 
@@ -92,11 +92,11 @@
 
 ##### Tasks:
 
-    - [x] if (a string with zero)
-    - [x] The name of JavaScript
-    - [x] Show the sign
-    - [x] Rewrite 'if' into '?'
-    - [x] Rewrite 'if..else' into '?'
+- [x] if (a string with zero)
+- [x] The name of JavaScript
+- [x] Show the sign
+- [x] Rewrite 'if' into '?'
+- [x] Rewrite 'if..else' into '?'
 
 #### Logical operators
 
@@ -104,15 +104,15 @@
 
 ##### Tasks:
 
-    - [x] What's the result of OR?
-    - [x] What's the result of OR'ed alerts?
-    - [x] What is the result of AND?
-    - [x] What is the result of AND'ed alerts?
-    - [x] The result of OR AND OR
-    - [x] Check the range between
-    - [x] Check the range outside
-    - [x] A question about "if"
-    - [x] Check the login
+- [x] What's the result of OR?
+- [x] What's the result of OR'ed alerts?
+- [x] What is the result of AND?
+- [x] What is the result of AND'ed alerts?
+- [x] The result of OR AND OR
+- [x] Check the range between
+- [x] Check the range outside
+- [x] A question about "if"
+- [x] Check the login
 
 #### Nullish coalescing operator '??'
 
@@ -124,13 +124,13 @@
 
 ##### Tasks:
 
-    - [x] Last loop value
-    - [x] Which values does the while loop show?
-    - [x] Which values get shown by the "for" loop?
-    - [x] Output even numbers in the loop
-    - [x] Replace "for" with "while"
-    - [x] Repeat until the input is correct
-    - [x] Output prime numbers
+- [x] Last loop value
+- [x] Which values does the while loop show?
+- [x] Which values get shown by the "for" loop?
+- [x] Output even numbers in the loop
+- [x] Replace "for" with "while"
+- [x] Repeat until the input is correct
+- [x] Output prime numbers
 
 #### The "switch" statement
 
@@ -138,8 +138,8 @@
 
 ##### Tasks:
 
-    - [x] Rewrite the "switch" into an "if"
-    - [x] Rewrite "if" into "switch"
+- [x] Rewrite the "switch" into an "if"
+- [x] Rewrite "if" into "switch"
 
 #### Functions
 
@@ -147,10 +147,10 @@
 
 ##### Tasks:
 
-    - [x] Is "else" required?
-    - [x] Rewrite the function using '?' or '||'
-    - [x] Function min(a, b)
-    - [x] Function pow(x,n)
+- [x] Is "else" required?
+- [x] Rewrite the function using '?' or '||'
+- [x] Function min(a, b)
+- [x] Function pow(x,n)
 
 #### Function expressions
 
@@ -162,7 +162,7 @@
 
 ##### Tasks:
 
-    - [x] Rewrite with arrow functions
+- [x] Rewrite with arrow functions
 
 #### JavaScript specials
 
@@ -180,7 +180,7 @@
 
 ##### Tasks:
 
-    - [x] Bad style
+- [x] Bad style
 
 #### Comments
 
@@ -196,7 +196,7 @@
 
 ##### Tasks:
 
-    - [x] What's wrong in the test?
+- [x] What's wrong in the test?
 
 #### Polyfills and transpilers
 
@@ -210,10 +210,10 @@
 
 ##### Tasks:
 
-    - [x] Hello, object
-    - [x] Check for emptiness
-    - [x] Sum object properties
-    - [x] Multiply numeric property values by 2
+- [x] Hello, object
+- [x] Check for emptiness
+- [x] Sum object properties
+- [x] Multiply numeric property values by 2
 
 #### Object references and copying
 
@@ -229,9 +229,9 @@
 
 ##### Tasks:
 
-    - [x] Using "this" in object literal
-    - [x] Create a calculator
-    - [x] Chaining
+- [x] Using "this" in object literal
+- [x] Create a calculator
+- [x] Chaining
 
 #### Constructor, operator "new"
 
@@ -239,9 +239,9 @@
 
 ##### Tasks:
 
-    - [x] Two functions – one object
-    - [x] Create new Calculator
-    - [x] Create new Accumulator
+- [x] Two functions – one object
+- [x] Create new Calculator
+- [x] Create new Accumulator
 
 #### Optional chaining '?.'
 
@@ -263,7 +263,7 @@
 
 ##### Tasks:
 
-    - [x] Can I add a string property?
+- [x] Can I add a string property?
 
 #### Numbers
 
@@ -271,12 +271,12 @@
 
 ##### Tasks:
 
-    - [x] Sum numbers from the visitor
-    - [x] Why 6.35.toFixed(1) == 6.3?
-    - [x] Repeat until the input is a number
-    - [x] An occasional infinite loop
-    - [x] A random number from min to max
-    - [x] A random integer from min to max
+- [x] Sum numbers from the visitor
+- [x] Why 6.35.toFixed(1) == 6.3?
+- [x] Repeat until the input is a number
+- [x] An occasional infinite loop
+- [x] A random number from min to max
+- [x] A random integer from min to max
 
 #### Strings
 
@@ -284,10 +284,10 @@
 
 ##### Tasks:
 
-    - [x] Uppercase the first character
-    - [x] Check for spam
-    - [x] Truncate the text
-    - [x] Extract the money
+- [x] Uppercase the first character
+- [x] Check for spam
+- [x] Truncate the text
+- [x] Extract the money
 
 #### Arrays
 
@@ -295,11 +295,11 @@
 
 ##### Tasks:
 
-    - [x] Is array copied?
-    - [x] Array operations.
-    - [x] Calling in an array context
-    - [x] Sum input numbers
-    - [x] A maximal subarray
+- [x] Is array copied?
+- [x] Array operations.
+- [x] Calling in an array context
+- [x] Sum input numbers
+- [x] A maximal subarray
 
 #### Array methods
 
@@ -307,19 +307,19 @@
 
 ##### Tasks:
 
-    - [x] Translate border-left-width to borderLeftWidth
-    - [x] Filter range
-    - [x] Filter range "in place"
-    - [x] Sort in decreasing order
-    - [x] Copy and sort array
-    - [x] Create an extendable calculator
-    - [x] Map to names
-    - [x] Map to objects
-    - [x] Sort users by age
-    - [x] Shuffle an array
-    - [x] Get average age
-    - [x] Filter unique array members
-    - [x] Create keyed object from array
+- [x] Translate border-left-width to borderLeftWidth
+- [x] Filter range
+- [x] Filter range "in place"
+- [x] Sort in decreasing order
+- [x] Copy and sort array
+- [x] Create an extendable calculator
+- [x] Map to names
+- [x] Map to objects
+- [x] Sort users by age
+- [x] Shuffle an array
+- [x] Get average age
+- [x] Filter unique array members
+- [x] Create keyed object from array
 
 #### Iterables
 
@@ -331,9 +331,9 @@
 
 ##### Tasks:
 
-    - [x] Filter unique array members
-    - [x] Filter anagrams
-    - [x] Iterable keys
+- [x] Filter unique array members
+- [x] Filter anagrams
+- [x] Iterable keys
 
 #### WeakMap and WeakSet
 
@@ -341,8 +341,8 @@
 
 ##### Tasks:
 
-    - [x] Store "unread" flags
-    - [x] Store read dates
+- [x] Store "unread" flags
+- [x] Store read dates
 
 #### Object.keys, values, entries
 
@@ -350,8 +350,8 @@
 
 ##### Tasks:
 
-    - [x] Sum the properties
-    - [x] Count properties
+- [x] Sum the properties
+- [x] Count properties
 
 #### Destructuring assignment
 
@@ -359,8 +359,8 @@
 
 ##### Tasks:
 
-    - [x] Destructuring assignment
-    - [x] The maximal salary
+- [x] Destructuring assignment
+- [x] The maximal salary
 
 #### Date and time
 
@@ -368,14 +368,14 @@
 
 ##### Tasks:
 
-    - [x] Create a date
-    - [x] Show a weekday
-    - [x] European weekday
-    - [x] Which day of month was many days ago?
-    - [x] Last day of month?
-    - [x] How many seconds have passed today?
-    - [x] How many seconds till tomorrow?
-    - [x] Format the relative date
+- [x] Create a date
+- [x] Show a weekday
+- [x] European weekday
+- [x] Which day of month was many days ago?
+- [x] Last day of month?
+- [x] How many seconds have passed today?
+- [x] How many seconds till tomorrow?
+- [x] Format the relative date
 
 #### JSON methods, toJSON
 
@@ -383,8 +383,8 @@
 
 ##### Tasks:
 
-    - [x] Turn the object into JSON and back
-    - [x] Exclude backreferences
+- [x] Turn the object into JSON and back
+- [x] Exclude backreferences
 
 ### Advanced working with functions
 
@@ -394,11 +394,11 @@
 
 ##### Tasks:
 
-    - [x] Sum all numbers till the given one
-    - [x] Calculate factorial
-    - [x] Fibonacci numbers
-    - [x] Output a single-linked list
-    - [x] Output a single-linked list in the reverse order
+- [x] Sum all numbers till the given one
+- [x] Calculate factorial
+- [x] Fibonacci numbers
+- [x] Output a single-linked list
+- [x] Output a single-linked list in the reverse order
 
 #### Rest parameters and spread syntax
 
@@ -410,16 +410,16 @@
 
 ##### Tasks:
 
-    - [x] Does a function pickup latest changes?
-    - [x] Which variables are available?
-    - [x] Are counters independent?
-    - [x] Counter object
-    - [x] Function in if
-    - [x] Sum with closures
-    - [x] Is variable visible?
-    - [x] Filter through function
-    - [x] Sort by field
-    - [x] Army of functions
+- [x] Does a function pickup latest changes?
+- [x] Which variables are available?
+- [x] Are counters independent?
+- [x] Counter object
+- [x] Function in if
+- [x] Sum with closures
+- [x] Is variable visible?
+- [x] Filter through function
+- [x] Sort by field
+- [x] Army of functions
 
 #### The old "var"
 
@@ -435,8 +435,8 @@
 
 ##### Tasks:
 
-    - [x] Set and decrease for counter
-    - [x] Sum with an arbitrary amount of brackets
+- [x] Set and decrease for counter
+- [x] Sum with an arbitrary amount of brackets
 
 #### The "new Function" syntax
 
@@ -448,8 +448,8 @@
 
 ##### Tasks:
 
-    - [ ] Output every second
-    - [ ] What will setTimeout show?
+- [ ] Output every second
+- [ ] What will setTimeout show?
 
 #### Decorators and forwarding, call/apply
 
@@ -457,10 +457,10 @@
 
 ##### Tasks:
 
-    - [ ] Spy decorator
-    - [ ] Delaying decorator
-    - [ ] Debounce decorator
-    - [ ] Throttle decorator
+- [ ] Spy decorator
+- [ ] Delaying decorator
+- [ ] Debounce decorator
+- [ ] Throttle decorator
 
 #### Function binding
 
@@ -468,11 +468,11 @@
 
 ##### Tasks:
 
-    - [ ] Bound function as a method
-    - [ ] Second bind
-    - [ ] Function property after bind
-    - [ ] Fix a function that loses "this"
-    - [ ] Partial application for login
+- [ ] Bound function as a method
+- [ ] Second bind
+- [ ] Function property after bind
+- [ ] Fix a function that loses "this"
+- [ ] Partial application for login
 
 #### Arrow functions revisited
 
@@ -496,10 +496,10 @@
 
 ##### Tasks:
 
-    - [ ] Working with prototype
-    - [ ] Searching algorithm
-    - [ ] Where does it write?
-    - [ ] Why are both hamsters full?
+- [ ] Working with prototype
+- [ ] Searching algorithm
+- [ ] Where does it write?
+- [ ] Why are both hamsters full?
 
 #### F.prototype
 
@@ -507,8 +507,8 @@
 
 ##### Tasks:
 
-    - [ ] Changing "prototype"
-    - [ ] Create an object with the same constructor
+- [ ] Changing "prototype"
+- [ ] Create an object with the same constructor
 
 #### Native prototypes
 
@@ -516,8 +516,8 @@
 
 ##### Tasks:
 
-    - [ ] Add method "f.defer(ms)" to functions
-    - [ ] Add the decorating "defer()" to functions
+- [ ] Add method "f.defer(ms)" to functions
+- [ ] Add the decorating "defer()" to functions
 
 #### Prototype methods, objects without __proto__
 
@@ -525,8 +525,8 @@
 
 ##### Tasks:
 
-    - [ ] Add toString to the dictionary
-    - [ ] The difference between calls
+- [ ] Add toString to the dictionary
+- [ ] The difference between calls
 
 ### Classes
 
@@ -536,7 +536,7 @@
 
 ##### Tasks:
 
-    - [ ] Rewrite to class
+- [ ] Rewrite to class
 
 #### Class inheritance
 
@@ -544,8 +544,8 @@
 
 ##### Tasks:
 
-    - [ ] Error creating an instance
-    - [ ] Extended clock
+- [ ] Error creating an instance
+- [ ] Extended clock
 
 #### Static properties and methods
 
@@ -553,7 +553,7 @@
 
 ##### Tasks:
 
-    - [ ] Class extends Object?
+- [ ] Class extends Object?
 
 #### Private and protected properties and methods
 
@@ -569,7 +569,7 @@
 
 ##### Tasks:
 
-    - [ ] Strange instanceof
+- [ ] Strange instanceof
 
 #### Mixins
 
@@ -583,7 +583,7 @@
 
 ##### Tasks:
 
-    - [ ] Finally or just the code?
+- [ ] Finally or just the code?
 
 #### Custom errors, extending Error
 
@@ -591,7 +591,7 @@
 
 ##### Tasks:
 
-    - [ ] Inherit from SyntaxError
+- [ ] Inherit from SyntaxError
 
 ### Promises, async/await
 
@@ -605,9 +605,9 @@
 
 ##### Tasks:
 
-    - [ ] Re-resolve a promise?
-    - [ ] Delay with a promise
-    - [ ] Animated circle with promise
+- [ ] Re-resolve a promise?
+- [ ] Delay with a promise
+- [ ] Animated circle with promise
 
 #### Promises chaining
 
@@ -615,7 +615,7 @@
 
 ##### Tasks:
 
-    - [ ] Promise: then versus catch
+- [ ] Promise: then versus catch
 
 #### Error handling with promises
 
@@ -623,7 +623,7 @@
 
 ##### Tasks:
 
-    - [ ] Error in setTimeout
+- [ ] Error in setTimeout
 
 #### Promise API
 
@@ -643,9 +643,9 @@
 
 ##### Tasks:
 
-    - [ ] Rewrite using async/await
-    - [ ] Rewrite "rethrow" with async/await
-    - [ ] Call async from non-async
+- [ ] Rewrite using async/await
+- [ ] Rewrite "rethrow" with async/await
+- [ ] Call async from non-async
 
 ### Generators, advanced iteration
 
@@ -655,7 +655,7 @@
 
 ##### Tasks:
 
-    - [ ] Pseudo-random generator
+- [ ] Pseudo-random generator
 
 #### Async iteration and generators
 
@@ -683,9 +683,9 @@
 
 ##### Tasks:
 
-    - [ ] Error on reading non-existent property
-    - [ ] Accessing array[-1]
-    - [ ] Observable
+- [ ] Error on reading non-existent property
+- [ ] Accessing array[-1]
+- [ ] Observable
 
 #### Eval: run a code string
 
@@ -693,7 +693,7 @@
 
 ##### Tasks:
 
-    - [ ] Eval-calculator
+- [ ] Eval-calculator
 
 #### Currying
 
@@ -705,8 +705,8 @@
 
 ##### Tasks:
 
-    - [ ] Syntax check
-    - [ ] Explain the value of "this"
+- [ ] Syntax check
+- [ ] Explain the value of "this"
 
 #### BigInt
 
@@ -738,9 +738,9 @@
 
 ##### Tasks:
 
-    - [ ] DOM children
-    - [ ] The sibling question
-    - [ ] Select all diagonal cells
+- [ ] DOM children
+- [ ] The sibling question
+- [ ] Select all diagonal cells
 
 #### Searching: getElement*, querySelector*
 
@@ -748,7 +748,7 @@
 
 ##### Tasks:
 
-    - [ ] Search for elements
+- [ ] Search for elements
 
 #### Node properties: type, tag and contents
 
@@ -756,10 +756,10 @@
 
 ##### Tasks:
 
-    - [ ] Count descendants
-    - [ ] What's in the nodeType?
-    - [ ] Tag in comment
-    - [ ] Where's the "document" in the hierarchy?
+- [ ] Count descendants
+- [ ] What's in the nodeType?
+- [ ] Tag in comment
+- [ ] Where's the "document" in the hierarchy?
 
 #### Attributes and properties
 
@@ -767,8 +767,8 @@
 
 ##### Tasks:
 
-    - [ ] Get the attribute
-    - [ ] Make external links orange
+- [ ] Get the attribute
+- [ ] Make external links orange
 
 #### Modifying the document
 
@@ -776,16 +776,16 @@
 
 ##### Tasks:
 
-    - [ ] createTextNode vs innerHTML vs textContent
-    - [ ] Clear the element
-    - [ ] Why does "aaa" remain?
-    - [ ] Create a list
-    - [ ] Create a tree from the object
-    - [ ] Show descendants in a tree
-    - [ ] Create a calendar
-    - [ ] Colored clock with setInterval
-    - [ ] Insert the HTML in the list
-    - [ ] Sort the table
+- [ ] createTextNode vs innerHTML vs textContent
+- [ ] Clear the element
+- [ ] Why does "aaa" remain?
+- [ ] Create a list
+- [ ] Create a tree from the object
+- [ ] Show descendants in a tree
+- [ ] Create a calendar
+- [ ] Colored clock with setInterval
+- [ ] Insert the HTML in the list
+- [ ] Sort the table
 
 #### Styles and classes
 
@@ -793,7 +793,7 @@
 
 ##### Tasks:
 
-    - [ ] Create a notification
+- [ ] Create a notification
 
 #### Element size and scrolling
 
@@ -801,10 +801,10 @@
 
 ##### Tasks:
 
-    - [ ] What's the scroll from the bottom?
-    - [ ] What is the scrollbar width?
-    - [ ] Place the ball in the field center
-    - [ ] The difference: CSS width versus clientWidth
+- [ ] What's the scroll from the bottom?
+- [ ] What is the scrollbar width?
+- [ ] Place the ball in the field center
+- [ ] The difference: CSS width versus clientWidth
 
 #### Window sizes and scrolling
 
@@ -816,10 +816,10 @@
 
 ##### Tasks:
 
-    - [ ] Find window coordinates of the field
-    - [ ] Show a note near the element
-    - [ ] Show a note near the element (absolute)
-    - [ ] Position the note inside (absolute)
+- [ ] Find window coordinates of the field
+- [ ] Show a note near the element
+- [ ] Show a note near the element (absolute)
+- [ ] Position the note inside (absolute)
 
 ### Introduction to Events
 
@@ -829,13 +829,13 @@
 
 ##### Tasks:
 
-    - [ ] Hide on click
-    - [ ] Hide self
-    - [ ] Which handlers run?
-    - [ ] Move the ball across the field
-    - [ ] Create a sliding menu
-    - [ ] Add a closing button
-    - [ ] Carousel
+- [ ] Hide on click
+- [ ] Hide self
+- [ ] Which handlers run?
+- [ ] Move the ball across the field
+- [ ] Create a sliding menu
+- [ ] Add a closing button
+- [ ] Carousel
 
 #### Bubbling and capturing
 
@@ -847,10 +847,10 @@
 
 ##### Tasks:
 
-    - [ ] Hide messages with delegation
-    - [ ] Tree menu
-    - [ ] Sortable table
-    - [ ] Tooltip behavior
+- [ ] Hide messages with delegation
+- [ ] Tree menu
+- [ ] Sortable table
+- [ ] Tooltip behavior
 
 #### Browser default actions
 
@@ -858,9 +858,9 @@
 
 ##### Tasks:
 
-    - [ ] Why "return false" doesn't work?
-    - [ ] Catch links in the element
-    - [ ] Image gallery
+- [ ] Why "return false" doesn't work?
+- [ ] Catch links in the element
+- [ ] Image gallery
 
 #### Dispatching custom events
 
@@ -874,7 +874,7 @@
 
 ##### Tasks:
 
-    - [ ] Selectable list
+- [ ] Selectable list
 
 #### Moving the mouse: mouseover/out, mouseenter/leave
 
@@ -882,8 +882,8 @@
 
 ##### Tasks:
 
-    - [ ] Improved tooltip behavior
-    - [ ] "Smart" tooltip
+- [ ] Improved tooltip behavior
+- [ ] "Smart" tooltip
 
 #### Drag'n'Drop with mouse events
 
@@ -891,8 +891,8 @@
 
 ##### Tasks:
 
-    - [ ] Slider
-    - [ ] Drag superheroes around the field
+- [ ] Slider
+- [ ] Drag superheroes around the field
 
 #### Pointer events
 
@@ -904,7 +904,7 @@
 
 ##### Tasks:
 
-    - [ ] Extended hotkeys
+- [ ] Extended hotkeys
 
 #### Scrolling
 
@@ -912,9 +912,9 @@
 
 ##### Tasks:
 
-    - [ ] Endless page
-    - [ ] Up/down button
-    - [ ] Load visible images
+- [ ] Endless page
+- [ ] Up/down button
+- [ ] Load visible images
 
 ### Forms, controls
 
@@ -924,7 +924,7 @@
 
 ##### Tasks:
 
-    - [ ] Add an option to select
+- [ ] Add an option to select
 
 #### Focusing: focus/blur
 
@@ -932,9 +932,9 @@
 
 ##### Tasks:
 
-    - [ ] Editable div
-    - [ ] Edit TD on click
-    - [ ] Keyboard-driven mouse
+- [ ] Editable div
+- [ ] Edit TD on click
+- [ ] Keyboard-driven mouse
 
 #### Events: change, input, cut, copy, paste
 
@@ -942,7 +942,7 @@
 
 ##### Tasks:
 
-    - [ ] Deposit calculator
+- [ ] Deposit calculator
 
 #### Forms: event and method submit
 
@@ -950,7 +950,7 @@
 
 ##### Tasks:
 
-    - [ ] Modal form
+- [ ] Modal form
 
 ### Document and resource loading
 
@@ -968,7 +968,7 @@
 
 ##### Tasks:
 
-    - [ ] Load images with a callback
+- [ ] Load images with a callback
 
 ### Miscellaneous
 
@@ -986,7 +986,7 @@
 
 ##### Tasks:
 
-    - [ ] What will be the output of this code?
+- [ ] What will be the output of this code?
 
 ## Additional articles
 
@@ -1012,7 +1012,7 @@
 
 ##### Tasks:
 
-    - [ ] Concatenate typed arrays
+- [ ] Concatenate typed arrays
 
 #### TextDecoder and TextEncoder
 
@@ -1034,7 +1034,7 @@
 
 ##### Tasks:
 
-    - [ ] Fetch users from GitHub
+- [ ] Fetch users from GitHub
 
 #### FormData
 
@@ -1054,7 +1054,7 @@
 
 ##### Tasks:
 
-    - [ ] Why do we need Origin?
+- [ ] Why do we need Origin?
 
 #### Fetch API
 
@@ -1096,7 +1096,7 @@
 
 ##### Tasks:
 
-    - [ ] Autosave a form field
+- [ ] Autosave a form field
 
 #### IndexedDB
 
@@ -1114,10 +1114,10 @@
 
 ##### Tasks:
 
-    - [ ] Animate a plane (CSS)
-    - [ ] Animate the flying plane (CSS)
-    - [ ] Animated circle
-    - [ ] Animated circle with callback
+- [ ] Animate a plane (CSS)
+- [ ] Animate the flying plane (CSS)
+- [ ] Animated circle
+- [ ] Animated circle with callback
 
 #### JavaScript animations
 
@@ -1125,8 +1125,8 @@
 
 ##### Tasks:
 
-    - [ ] Animate the bouncing ball
-    - [ ] Animate the ball bouncing to the right
+- [ ] Animate the bouncing ball
+- [ ] Animate the ball bouncing to the right
 
 ### Web components
 
@@ -1140,7 +1140,7 @@
 
 ##### Tasks:
 
-    - [ ] Live timer element
+- [ ] Live timer element
 
 #### Shadow DOM
 
@@ -1182,7 +1182,7 @@
 
 ##### Tasks:
 
-    - [ ] Regexp ^$
+- [ ] Regexp ^$
 
 #### Multiline mode of anchors ^ $, flag "m"
 
@@ -1194,7 +1194,7 @@
 
 ##### Tasks:
 
-    - [ ] Find the time
+- [ ] Find the time
 
 #### Escaping, special characters
 
@@ -1206,8 +1206,8 @@
 
 ##### Tasks:
 
-    - [ ] Java[^script]
-    - [ ] Find the time as hh:mm or hh-mm
+- [ ] Java[^script]
+- [ ] Find the time as hh:mm or hh-mm
 
 #### Quantifiers +, *, ? and {n}
 
@@ -1215,8 +1215,8 @@
 
 ##### Tasks:
 
-    - [ ] How to find an ellipsis "..." ?
-    - [ ] Regexp for HTML colors
+- [ ] How to find an ellipsis "..." ?
+- [ ] Regexp for HTML colors
 
 #### Greedy and lazy quantifiers
 
@@ -1224,9 +1224,9 @@
 
 ##### Tasks:
 
-    - [ ] A match for /d+? d+?/
-    - [ ] Find HTML comments
-    - [ ] Find HTML tags
+- [ ] A match for /d+? d+?/
+- [ ] Find HTML comments
+- [ ] Find HTML tags
 
 #### Capturing groups
 
@@ -1234,10 +1234,10 @@
 
 ##### Tasks:
 
-    - [ ] Check MAC-address
-    - [ ] Find color in the format #abc or #abcdef
-    - [ ] Find all numbers
-    - [ ] Parse an expression
+- [ ] Check MAC-address
+- [ ] Find color in the format #abc or #abcdef
+- [ ] Find all numbers
+- [ ] Parse an expression
 
 #### Backreferences in pattern: \N and \k&lt;name&gt;
 
@@ -1249,10 +1249,10 @@
 
 ##### Tasks:
 
-    - [ ] Find programming languages
-    - [ ] Find bbtag pairs
-    - [ ] Find quoted strings
-    - [ ] Find the full tag
+- [ ] Find programming languages
+- [ ] Find bbtag pairs
+- [ ] Find quoted strings
+- [ ] Find the full tag
 
 #### Lookahead and lookbehind
 
@@ -1260,8 +1260,8 @@
 
 ##### Tasks:
 
-    - [ ] Find non-negative integers
-    - [ ] Insert After Head
+- [ ] Find non-negative integers
+- [ ] Insert After Head
 
 #### Catastrophic backtracking
 

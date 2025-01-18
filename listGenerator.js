@@ -52,6 +52,6 @@ function map_lesson_to_lesson_title_and_tasks(lesson) {
 
 function convert_tasks_to_checklist_items(lesson_tasks) {
   return `##### Tasks:\n\n${lesson_tasks
-    .map((element) => `\t- [ ] ${element.innerHTML}`)
+    .map((element) => `- [ ] ${element.innerHTML}`)
     .join("\n")}`;
 }
