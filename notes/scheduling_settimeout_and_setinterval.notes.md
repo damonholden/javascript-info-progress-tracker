@@ -154,3 +154,23 @@ setTimeout(function tick() {
 In the first example, `tick` is invoked in 1 second intervals and each interval delay is started immediately when the previous has finished, meaning if the `alert` dialog is not interacted with, `alert` is still being invoked after each second. In the second example, the behavior is different, further invocations to `setTimeout` after the first happen after `alert` has finished executing - in practice meaning the next timeout isn't started until the `alert` dialog is acknowledged. This same behavior could be useful for intervals that should be spaced out between complete function executions. In short, the real delay between invocations of functions passed into setInterval is less than in the code - as the callbacks execution consumes some amount of the interval delay.
 
 ### Garbage collection and setInterval
+
+The reference to the function passed to `setInterval` effectively prevents the function being garbage collected, even if no other code references it. The reference will hold until `clearInterval` is called. This is to allow the interval to function through subsequent intervals.
+
+The sideeffect of this is that as long as the interval exists, the function will hold onto its lexical environment, so any variable outside of the functions scope will also be un-garbage-collaectable, which could have considerable memory implications. 
+
+Because of this - its important to be considerate of what is stored in a callback function's outside lexical environment; and also make sure that when an interval is no longer valid - it's `clearTimeout` is called.
+
+## Zero delay setTimeout
+
+while `setTimeout(func, 0)` might seem like a pointless invocation, as it seems like calling `func` without passing it to `setTimeout` would have the same effect, there is actually a valid use-case for this - when you want the callback to execute immediately after the current call stack:
+
+```JavaScript
+setTimeout(alert, 0, "world");
+alert("Hello");
+```
+
+The example above will alert `"Hello"` and then `"World"`, because the callback passed to `setTimeout` is added to a que and invoked after the current callstack has finished. 
+
+### Zero delay is in fact not zero in a browser
+
