@@ -174,3 +174,4 @@ The example above will alert `"Hello"` and then `"World"`, because the callback 
 
 ### Zero delay is in fact not zero in a browser
 
+In the HTML Living Standard after 5 nested timers, the interval of further timers are forced to be at least 4 milliseconds. This is the same also for setInterval.
